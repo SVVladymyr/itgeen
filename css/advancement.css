@@ -1,0 +1,52 @@
+.advancement {
+	background: white url(../images/advancement/bike.png) no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 40rem;
+}
+
+.advancement > .row {
+	margin: 0px;
+	padding: 0px;
+}
+
+.advancement .row:first-child {
+	margin-top: 8rem;
+}
+
+.advancement .row {
+	margin-top: 3rem;	
+	padding-left: 10rem;
+    padding-right: 5rem;
+}
+
+.advancement > .row > .col {
+	text-align: center;
+}
+
+.advancement-text {
+	font-family: Museo_Cyrl_500;
+	font-weight: bold;
+}
+
+.advancement-row {
+	margin-bottom: 0px !important; 
+}
+
+.advancement-bottom {
+	background-color: #00e4ff;
+	color: black;
+	height: 27rem;
+
+}
+
+.advancement-bottom-text {
+	text-align: center;
+	font-family: Museo_Cyrl_500;
+}
+
+.advancement-bottom-header {
+	font-family: Museo_Cyrl_700;	
+	font-weight: 700;
+	font-size: 2.5em;
+}

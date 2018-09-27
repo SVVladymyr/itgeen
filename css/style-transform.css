@@ -1,0 +1,35 @@
+.main {
+	display: inline-flex;
+	width: 100%;
+	transform: translate3d(5%,0,0);
+	transition: transform 2s;
+	perspective-origin: center center;
+	perspective:300px;
+}
+
+.right {
+	width: 30%;
+	transform: translate3d(-35%,0,0) rotateY(-25deg);
+	background-color: red;
+	transition: transform 2s;
+	display: none;
+}
+
+.main:hover .right {
+	transform: rotateY(-5deg);
+	display: block;
+}
+
+.left {
+	width: 30%;
+	background-color: yellow;
+	transition: transform 2s;
+}
+
+.main:hover .left {
+	transform: translate3d(35%,0,0) rotateY(15deg);
+}
+
+.main:hover .img {
+	/*transform: translate3d(-4%,0,0) scale(1.02);*/
+}

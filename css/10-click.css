@@ -1,0 +1,65 @@
+.ten-click-img1 {
+	background: white url(../images/10-click/ten-click-1.png) no-repeat;
+	background-position: center;
+	height: 19rem;
+	padding: 0px !important;
+	margin: 0px !important;
+	color: white;
+	font-family: Museo_Cyrl_500;
+}
+
+.ten-click-img2 {
+	background: white url(../images/10-click/ten-click-2.png) no-repeat;
+	background-position: center;
+	height: 19rem;
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+.ten-click-text:before {
+	display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    content: "";
+}
+
+.ten-click-text p {
+	display: inline-block;
+    vertical-align: middle;
+}
+
+.ten-click-top-block .col {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.ten-click-top-block .col .ten-click-text-header {
+	font-family: Museo_Cyrl_700;
+	font-size: 3em;
+	color: #ef6027;
+}
+
+.ten-click-top-block .col .ten-click-text {
+	font-family: Museo_Cyrl_500;
+	font-size: 1em;
+	font-weight: 700;
+	color: black;
+	line-height: 1em;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.ten-click-block-center, .ten-click-block-center > .row {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px; 
+}
+
+.ten-click-block-top {
+	margin-bottom: 0px;
+}
+
+.ten-click-block-bottom {
+	margin-top: 0px;
+}

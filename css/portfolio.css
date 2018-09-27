@@ -1,0 +1,44 @@
+.portfolio .tabs .tab a {
+	color: black !important;
+	font-family: Museo_Cyrl_500;
+	font-size: 0.7em;
+}
+
+.portfolio .tabs .tab a:hover {
+	color: #dd6f46 !important;
+}
+
+.portfolio .tabs .tab a:focus.active {
+	background-color: #e5d8d3 !important;
+}
+
+.portfolio .tabs .indicator {
+	background-color: #dd6f46 !important;
+}
+
+.pictureContainer {
+    height: 15rem;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid #9caebc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.pictureContainer:hover {
+	box-shadow: 0 0 10px #dd6f46;
+}
+
+.pictureContainer img {
+    position: relative;
+    top: 0px;
+    transition: top .5s ease-in-out;
+}
+
+.carousel {
+    top: -3rem;
+}
+
+.carousel .carousel-item {
+	width: 30rem !important;
+	height: 23rem !important;
+}

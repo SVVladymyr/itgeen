@@ -1,0 +1,37 @@
+.reviews {
+	background: #f6d654 url(../images/reviews/human.png) no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.slider {
+	margin-top: 7rem;
+}
+
+.slider div img {
+	padding: 5px;
+	width: 95%;
+	height: auto;
+}
+
+.slider + .row {
+	margin: 0px !important;
+}
+
+.slick-next {
+	display: none !important;
+}
+
+.slick-prev {
+	display: none !important;
+}
+
+.form-reviews {
+	background-color: white;
+	padding: 5px !important;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.form-reviews .input-field {
+    margin-bottom: 0px;
+}
