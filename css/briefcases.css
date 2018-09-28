@@ -1,0 +1,123 @@
+.briefcases {
+	margin-top: 2rem;
+	/*background-color: #1f2227;*/
+	background-color: white;
+}
+
+.briefcases > .row {
+	padding: 2rem;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 1rem;
+}
+
+.main {
+	display: inline-flex;
+	height: 20rem;
+	position: relative;
+	transform: translate3d(0%,0,0);
+	transition: transform 1s;
+	transition-timing-function: linear;
+	perspective-origin: 50% 50%;
+	perspective:1000px;
+}
+
+.right {
+	perspective-origin: 0% 100%;
+	transform: translate3d(-50%,0,0) rotateY(-95deg);
+	transform-style: preserve-3d;
+	transition: transform 1s;
+	transition-timing-function: linear;
+	visibility: hidden;
+	position: relative;
+	top: -1rem;
+	z-index: 99999;
+}
+
+.left {
+	display: flex;
+	overflow: hidden;
+}
+
+.left-one {
+	transition: transform 1s;
+	transform-style: preserve-3d;
+	transition-timing-function: linear;
+	animation-name: fold;
+	position: relative;
+	perspective-origin: 0% 100%;
+}
+
+@keyframes fold {
+  1% {
+    opacity: 0.7
+  }
+}
+
+
+.main .left-one img {
+	opacity: 1;
+}
+
+.main:hover .right {
+	transform: translate3d(-50%,0,0) rotateY(-25deg);
+	visibility: visible;
+}
+
+.left-two {
+	width: 30%;
+	left: -0.2rem;
+	transition: transform 1s;
+	transform-style: preserve-3d;
+	transition-timing-function: linear;
+	position: relative;
+}
+
+.main:hover .left-two {
+	transform: translate3d(15%,0,0) rotateY(20deg);
+}
+
+.main:hover .left-one {
+	transform: translate3d(180%,0,0) rotateY(-20deg) scale(1.025);
+}
+
+.main:hover .left-one img {
+	opacity: 0.7;
+}
+
+/* Pop-up block */
+.alert1, .alert2, .alert3, .alert4 {
+	display: none;
+    padding: 20px;
+    background-color: green;
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* Cross */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 26px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+.left-text {
+	position: relative;
+	top: 100%;
+	left: -20%;
+	color: white;
+	transition: top 0.5s linear;
+}
+
+.main:hover .left-text {
+	top: 60%;
+}

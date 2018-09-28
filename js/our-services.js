@@ -45,3 +45,22 @@ $(document).ready(function(){
 	});
 });
 /* End script for block Reviews */
+/* Start block animation top text for block briefcases */
+$( ".display-alert1" ).on( "click", function() {
+    /*$(".alert1").css("display","block");*/
+    $(".alert1").fadeIn(1000);
+    $('html, body').animate({ scrollTop: $(".alert1").offset().top }, 1000);
+});
+$( ".display-alert2" ).on( "click", function() {
+    $(".alert2").fadeIn(1000);
+    $('html, body').animate({ scrollTop: $(".alert2").offset().top }, 1000);
+});
+$( ".display-alert3" ).on( "click", function() {
+    $(".alert3").fadeIn(1000);
+    $('html, body').animate({ scrollTop: $(".alert3").offset().top }, 1000);
+});
+$( ".display-alert4" ).on( "click", function() {
+    $(".alert4").fadeIn(1000);
+    $('html, body').animate({ scrollTop: $(".alert4").offset().top }, 1000);
+});
+/* End block animation top text for block briefcases */

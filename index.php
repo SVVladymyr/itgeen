@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/advancement.css">
     <link rel="stylesheet" href="css/reviews.css">
+    <link rel="stylesheet" href="css/briefcases.css">
     <link rel="stylesheet" href="css/10-click.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
@@ -763,7 +764,7 @@
 				</div>
 			</div>
 			<div class="row advancement-bottom">
-				<div class="col s6 offset-s6 advancement-bottom-header">
+				<div class="col s12 advancement-bottom-header">
 					<p>Почему МЫ</p>
 				</div>
 				<div class="col s12">
@@ -784,12 +785,144 @@
 				</div>
 			</div>	
 			<!-- End block advancement -->
-			
+			<!-- Start block briefcases -->
+			<div class="row">
+				<div class="col s6 offset-s6 title-our-services">
+					<span>Кейсы</span>
+				</div>
+				<div class="col s12 briefcases">
+					<div class="row">
+						<a class="display-alert1">
+							<div class="col s6 main">
+								<div class="left">
+									<div class="left-one">
+		                				<img src="images/briefcases/line.png" height="100%" width="auto">
+		            				</div>
+									<div class="left-two">
+		                				<img src="images/briefcases/bus3.png" height="100%" width="auto">
+		            				</div>
+		            				<div class="left-text">
+		            					Блок Текста
+		            				</div>
+		            			</div>
+	            				<div class="right">
+	                				<img src="images/briefcases/perspective.png" height="110%">
+	            				</div>
+							</div>
+						</a>
+						<a class="display-alert2">
+							<div class="col s6 main">
+								<div class="left">
+									<div class="left-one">
+		                				<img src="images/briefcases/line.png" height="100%" width="auto">
+		            				</div>
+									<div class="left-two">
+		                				<img src="images/briefcases/bus3.png" height="100%" width="auto">
+		            				</div>
+		            				<div class="left-text">
+		            					Блок Текста
+		            				</div>
+		            			</div>
+	            				<div class="right">
+	                				<img src="images/briefcases/perspective.png" height="110%">
+	            				</div>
+							</div>
+						</a>
+					</div>
+					<div class="row">
+						<div class="col s12">
+							<div class="alert1">
+							  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+							  Тут Ваше сообщение
+							</div>
+						</div>
+						<div class="col s12">
+							<div class="alert2">
+							  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+							  Тут Ваше сообщение
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<a class="display-alert3">
+							<div class="col s6 main">
+								<div class="left">
+									<div class="left-one">
+		                				<img src="images/briefcases/line.png" height="100%" width="auto">
+		            				</div>
+									<div class="left-two">
+		                				<img src="images/briefcases/bus3.png" height="100%" width="auto">
+		            				</div>
+		            				<div class="left-text">
+		            					Блок Текста
+		            				</div>
+		            			</div>
+	            				<div class="right">
+	                				<img src="images/briefcases/perspective.png" height="110%">
+	            				</div>
+							</div>
+						</a>
+						<a class="display-alert4">
+							<div class="col s6 main">
+								<div class="left">
+									<div class="left-one">
+		                				<img src="images/briefcases/line.png" height="100%" width="auto">
+		            				</div>
+									<div class="left-two">
+		                				<img src="images/briefcases/bus3.png" height="100%" width="auto">
+		            				</div>
+		            				<div class="left-text">
+		            					Блок Текста
+		            				</div>
+		            			</div>
+	            				<div class="right">
+	                				<img src="images/briefcases/perspective.png" height="110%">
+	            				</div>
+							</div>
+						</a>
+					</div>
+					<div class="row">
+						<div class="col s12">
+							<div class="alert3">
+							  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+							  Тут Ваше сообщение
+							</div>
+						</div>
+						<div class="col s12">
+							<div class="alert4">
+							  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+							  Тут Ваше сообщение
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End block briefcases -->
+			<!-- Start block contacts -->
+			<div class="row contact">
+				<div class="col s5 our-history">
+					<span>Контакты</span>
+				</div>
+			</div>
+			<!-- End block contacts -->	
 		</main>
 
 		<footer>
-			
-		</footer>
+          <div class="container">
+            <div class="row">
+              <div class="col s4">
+              </div>
+              <div class="col s4">
+              </div>
+              <div class="col s4">
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2018 ITGeen
+          </div>
+        </footer>
 	</div>	
     <script src="js/css3-mediaqueries.min.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
