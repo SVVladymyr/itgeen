@@ -12,6 +12,7 @@
 	<![endif]-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="component/timelinejs/dist/css/style.css" />
     <link rel="stylesheet" href="component/slick/slick/slick.css" />
@@ -21,6 +22,7 @@
     <link rel="stylesheet" href="css/reviews.css">
     <link rel="stylesheet" href="css/briefcases.css">
     <link rel="stylesheet" href="css/10-click.css">
+    <link rel="stylesheet" href="css/contacts.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
@@ -908,14 +910,58 @@
 		</main>
 
 		<footer>
-          <div class="container">
-            <div class="row">
-              <div class="col s4">
-              </div>
-              <div class="col s4">
-              </div>
-              <div class="col s4">
-              </div>
+          <div>
+            <div class="row address">
+                <div class="col s12">
+                	<div class="contact1">
+			            <div class="contact-map1">
+				           	<img src="images/contacts/map.png" height="135rem" />
+			            </div>
+			            <div class="contact-text1">
+			              	<p>
+			              		350065, г.Краснодар ул.Ставропольская 312, 3 этаж, оф.4
+			              		<br>
+			              		Тел.: +7(938)407-30-84
+			              		<br>
+			              		E-mail: contacts@itgeen.com
+			              		<br>
+			              		Skype: itgeenltd
+			              	</p>
+			            </div>
+			        </div>
+		            <div class="contact2">  
+		              	<div class="contact-map2">
+		              		<img src="images/contacts/map.png" height="135rem" />
+		              	</div>
+			            <div class="contact-text2">
+				           	<p>
+				           		Osaca, Joto Ku, Hanaten Nishi, 1-2
+				           		<br>
+				           		Тел.: +819096149966
+				           		<br>
+				           		E-mail: itgeenltd@gmail.com
+				           		<br>
+				           		Skype: itgeenltd
+				           	</p>
+			            </div>
+			        </div>
+		            <div class="contact3">
+			            <div class="contact-map3">
+		              		<img src="images/contacts/map.png" height="135rem" />
+		              	</div>
+		              	<div class="contact-text3">
+		              		<p>
+			              		350065, г.Краснодар ул.Ставропольская 312, 3 этаж, оф.4
+			              		<br>
+			              		Тел.: +7(938)407-30-84
+			              		<br>
+			              		E-mail: contacts@itgeen.com
+			              		<br>
+			              		Skype: itgeenltd
+		              		</p>
+		              	</div>
+		            </div>
+            	</div>
             </div>
           </div>
           <div class="footer-copyright">
@@ -926,11 +972,13 @@
 	</div>	
     <script src="js/css3-mediaqueries.min.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="component/timelinejs/dist/js/index.js"></script>
     <script type="text/javascript" src="component/slick/slick/slick.js"></script>
     <script src="js/script.js"></script>
     <script src="js/our-services.js"></script>
+    <script src="js/contact.js"></script>
 
 </body>
 </html>
