@@ -1,18 +1,86 @@
 .address {
 	line-height: 1rem;
 	font-family: Museo_Cyrl_500;
+	width: 97%;
 }
 
 .address > .col {
 	display: inline-flex;
 }
 
-.contact-text1 , .contact-text2, .contact-text3 {
-	width: 19rem;
-	margin: 1rem;
+.contact-text1, .contact-text2, .contact-text3 {
 	line-height: 1.2rem;
+	background-color: white;
+	position: absolute;
+    width: 21vw;
+    height: 9rem;
+    margin: 0px;
+    padding: 0px;
+	z-index: 9; 
+	transition-delay: 0.5s;
+	transition-duration: 1s;
+	transition-property: all;
+	transition-timing-function: linear;
+}
+
+.contact-text3 {
+	width: 16rem;
 }
 
 .contact1, .contact2, .contact3 {
 	display: inline-flex;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.contact2 {
+	margin-left: 3.5rem;
+	margin-right: 2.7rem;
+}
+
+.contact-block {
+	margin: 0px;
+	padding: 3rem !important;
+	border: 1px solid #cfcfcf;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.contact-map1, .contact-map2, .contact-map3 {
+	width: 18vw;
+	position: relative;
+}
+
+.active-contact-block1 {
+	left: 6vw;
+}
+
+.active-contact-block2 {
+	left: 29vw;
+}
+
+.unactive-contact-block1 {
+	left: 29vw;
+}
+
+.unactive-contact-block2 {
+	left: 52vw;
+}
+
+.unactive-contact-block3 {
+	left: 75%;
+}
+
+.hidden-block {
+	visibility: hidden;
+}
+
+.visible-block {
+	visibility: visible;	
+}
+
+@-moz-document url-prefix() {
+	span {
+		color: red;
+	}
 }

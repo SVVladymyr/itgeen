@@ -10,112 +10,150 @@
     	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 	<![endif]-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/jquery-ui.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="component/timelinejs/dist/css/style.css" />
     <link rel="stylesheet" href="component/slick/slick/slick.css" />
     <link rel="stylesheet" href="component/slick/slick/slick-theme.css" />
+	<link rel="stylesheet" type="text/css" href="component/swiper/dist/css/swiper.css" />
     <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/advancement.css">
     <link rel="stylesheet" href="css/reviews.css">
     <link rel="stylesheet" href="css/briefcases.css">
     <link rel="stylesheet" href="css/10-click.css">
     <link rel="stylesheet" href="css/contacts.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/target.css">
+    <link rel="stylesheet" href="component/navigation/css/style.css" />
 </head>
 <body>
 	<div class="itgeen-container">
 		<header>
-			<div class="row">
-				<div class="col s1 m1 l1 xl1 header-block-1">
-					<img src="images/logo.png" width="150%" height="auto" class="right logo">
-					<div class="row">
-						<div class="col s12 header-block-11">
-							<img src="images/exclamation.png" width="130%" height="auto" class="right exclamation">
+				<div class="row">
+					<div class="col s1 m1 l1 xl1 header-block-1">
+						<img src="images/logo.png" width="150%" height="auto" class="logo">
+						<div class="row">
+							<div class="col s12 header-block-11">
+								<img src="images/exclamation.png" width="130%" height="auto" class="exclamation">
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col s5 m5 l5 xl5 header-block-2">
-					<div class="row">
-						<div class="col s12">
-							<canvas id="canvas"></canvas>
-							<img id="img-canvas" src="images/fon.png" />
-							<span class="right text-header-block-21" align="right"><h3><b>Разработка<br><nobr>и продвижение</nobr><br>сайтов</b></h3></span>
+					<div class="col s5 m5 l5 xl5 header-block-2">
+						<div class="row">
+							<div class="col s12">
+								<canvas id="canvas"></canvas>
+								<img id="img-canvas" src="images/fon.png" />
+								<span class="text-header-block-21" align="right"><h3><b>Разработка<br><nobr>и продвижение</nobr><br>сайтов</b></h3></span>
+							</div>
+							<div class="col s6 header-block-22">
+								<span class="ul-title-block-22">Почему стоит работать с нами</span>
+								<ul class="ul-header-block-22">
+									<li><span>Выполняем все работы в срок</span></li>
+									<li><span>10 лет на рынке, имеем профессиональную команду</span></li>
+									<li><span>Всегда идем на встречу клиенту</span></li>
+									<li><span>Нацелены на результат, увеличиваем вашу прибыль</span></li>
+								</ul>
+							</div>
+							<div class="col s3 header-block-23">
+								<img src="images/question-1.png" width="60%" height="auto" class="question-1">
+								<img src="images/question-2.png" width="60%" height="auto" class="question-2">
+								<img src="images/question-3.png" width="50%" height="auto" class="question-3">
+							</div>	
 						</div>
-						<div class="col s6 header-block-22">
-							<span class="ul-title-block-22">Почему стоит работать с нами</span>
-							<ul class="ul-header-block-22">
-								<li><span>Выполняем все работы в срок</span></li>
-								<li><span>10 лет на рынке, имеем профессиональную команду</span></li>
-								<li><span>Всегда идем на встречу клиенту</span></li>
-								<li><span>Нацелены на результат, увеличиваем вашу прибыль</span></li>
-							</ul>
-						</div>
-						<div class="col s3 header-block-23">
-							<img src="images/question-1.png" width="60%" height="auto" class="question-1">
-							<img src="images/question-2.png" width="60%" height="auto" class="question-2">
-							<img src="images/question-3.png" width="50%" height="auto" class="question-3">
-						</div>	
 					</div>
-				</div>
-				<div class="col s6 m6 l6 xl6 header-block-3">
-					<div class="row">
-						<div class="col s12">
-							<div class="flex-display-header">
-								<div>
-									<div class="fixed-action-btn fab-position flex-display-header">
-									  <ul class="ul-header">
-									    <li><a class="btn-floating btn-small red"><i class="material-icons">insert_chart</i></a></li>
-									    <li><a class="btn-floating btn-small yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-									    <li><a class="btn-floating btn-small green"><i class="material-icons">publish</i></a></li>
-									    <li><a class="btn-floating btn-small blue"><i class="material-icons">attach_file</i></a></li>
-									  </ul>
-									  <a class="a-header">
-									    <i class="small material-icons">chevron_left</i>
-									    <i class="small material-icons">dehaze</i>
-									  </a>
+					<div class="col s6 m6 l6 xl6 header-block-3">
+						<div class="row">
+							<div class="col s5 offset-s6">
+								<!--
+								<div class="flex-display-header">
+									<div>
+										<div class="fixed-action-btn fab-position flex-display-header">
+										  <ul class="ul-header">
+										    <li><a class="btn-floating btn-small red"><i class="material-icons">insert_chart</i></a></li>
+										    <li><a class="btn-floating btn-small yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+										    <li><a class="btn-floating btn-small green"><i class="material-icons">publish</i></a></li>
+										    <li><a class="btn-floating btn-small blue"><i class="material-icons">attach_file</i></a></li>
+										  </ul>
+										  <a class="a-header">
+										    <i class="small material-icons">chevron_left</i>
+										    <i class="small material-icons">dehaze</i>
+										  </a>
+										</div>
 									</div>
+								</div>
+							-->
+								<div>	
+									<h6 class="phone-header">
+										<span class="center-align">+7(938)407-30-84</span>
+									</h6>
 								</div>
 								<div>	
 									<h6 class="phone-header"><span class="center-align">+7(938)407-30-84</span></h6>
 								</div>
-							</div>	
+								<div>	
+									<h6 class="phone-header"><span class="center-align">+7(938)407-30-84</span></h6>
+								</div>
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="col s12 reset-left-padding">
-							<div class="image-header-block-3">
-								<img src="images/header-image3.png" width="130%" height="20%" class="animated tada">
-							</div>		
+						<div class="row">
+							<div class="col s12 reset-left-padding">
+								<div class="image-header-block-3">
+									<img src="images/header-image3.png" width="130%" height="20%" class="animated">
+								</div>		
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="col s6">
-							<div class="header-block-33">
-								<div class="input-field col s12">
-							        <input id="first_name" type="text" class="validate">
-							        <label for="first_name">Имя</label>
-							    </div>
-							    <div class="input-field col s12">
-							        <input id="phone" type="text" class="validate">
-							        <label for="phone">Телефон</label>
-							    </div>
-						        <div class="input-field col s12">
-						        	<input id="text" type="text" class="validate">
-							        <label for="text">Что Вас интересует?</label>
-							    </div>
-							    <div class="col s12 btn-header-block-33">
-							    	<br><a class="btn">Оставить заявку</a>
-							    </div>
+						<div class="row">
+							<div class="col s6">
+								<div class="header-block-33">
+									<div class="input-field col s12">
+								        <input id="first_name" type="text" class="validate">
+								        <label for="first_name">Имя</label>
+								    </div>
+								    <div class="input-field col s12">
+								        <input id="phone" type="text" class="validate">
+								        <label for="phone">Телефон</label>
+								    </div>
+							        <div class="input-field col s12">
+							        	<input id="text" type="text" class="validate">
+								        <label for="text">Что Вас интересует?</label>
+								    </div>
+								    <div class="col s12 btn-header-block-33">
+								    	<br><a class="btn">Оставить заявку</a>
+								    </div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</header>
+				<div class="mynav">
+					<ul class="cd-primary-nav">
+						<li class="cd-label">About us</li>
 
+						<li><a href="#0">The team</a></li>
+						<li><a href="#0">Our services</a></li>
+						<li><a href="#0">Our projects</a></li>
+
+						<li class="cd-label">Work with us</li>
+
+						<li><a href="#0">Start a project</a></li>
+						<li><a href="#0">Join In</a></li>
+						<li><a href="#0">Create an account</a></li>
+
+						<li class="cd-label">Follow us</li>
+						
+						<li class="cd-social cd-facebook"><a href="#0">Facebook</a></li>
+						<li class="cd-social cd-instagram"><a href="#0">Instagram</a></li>
+						<li class="cd-social cd-dribbble"><a href="#0">Dribbble</a></li>
+						<li class="cd-social cd-twitter"><a href="#0">Twitter</a></li>
+					</ul>
+				</div>
+				<!-- cd-nav -->
+				<a class="cd-primary-nav-trigger cd-header is-fixed">
+					<span class="cd-menu-icon"></span>
+				</a> <!-- cd-primary-nav-trigger -->
+		</header>
+		</div>
 		<main>
 			<!-- Start block About  -->
 			<div class="row">
@@ -251,13 +289,14 @@
 			</div>
 			<!-- End block Our services  -->
 			<!-- Start block history about -->
+			<!--
 			<div class="row">
 				<div class="col s5 our-history">
 					<span>Наша история</span>
 				</div>
 				<div class="col s12">
 					<div class="tl-wrapper">
-					  <ul class="timeline">
+					  <ul class="timeline" width="100%" height="auto">
 					    <li class="tl-item" data-year="2014">
 					      <div class="tl-copy">
 					        <h3 class="title">iTGeen, </h3>
@@ -351,7 +390,8 @@
 					  </ul>
 					</div>
 				</div>	
-			</div>	
+			</div>
+		-->
 			<!-- End block history about -->
 			<!-- Start block portfolio -->
 			<div class="row">
@@ -362,90 +402,221 @@
 			<div class="row">
 			    <div class="col s12 portfolio">
 				    <ul class="tabs">
-				        <li class="tab col s2"><a class="active" href="#all">Все</a></li>
-				        <li class="tab col s2"><a href="#site">Сайты</a></li>
-				        <li class="tab col s2"><a href="#app">Приложения</a></li>
-				        <li class="tab col s2"><a href="#video">Видео</a></li>
-				        <li class="tab col s2"><a href="#design">Дизайн</a></li>
-				        <li class="tab col s2"><a href="#seo">Продвижение</a></li>
+				        <li class="tab col s2"><a id="-all" class="active" href="#all">Все</a></li>
+				        <li class="tab col s2"><a id="-site" href="#site">Сайты</a></li>
+				        <li class="tab col s2"><a id="-app" href="#app">Приложения</a></li>
+				        <li class="tab col s2"><a id="-video" href="#video">Видео</a></li>
+				        <li class="tab col s2"><a id="-design" href="#design">Дизайн</a></li>
+				        <li class="tab col s2"><a id="-seo" href="#seo">Продвижение</a></li>
 	 		        </ul>
 			    </div>
 			    <div id="all" class="col s12">
 			    	<div class="row">
 			    		<br>
 			    		<div class="col s12">
-					    	<div class="carousel">
-							    <a class="carousel-item pictureContainer">
-							    	<img src="images/portfolio/1.jpg" height="auto" width="100%">
-							    </a>
-							    <a class="carousel-item pictureContainer" height="auto" width="100%">
-							    	<img src="images/portfolio/2.jpg">
-							    </a>
-							    <a class="carousel-item pictureContainer" height="auto" width="100%">
-							    	<img src="images/portfolio/3.jpg">
-							    </a>
-							    <a class="carousel-item pictureContainer" height="auto" width="100%">
-							    	<img src="images/portfolio/5.jpg">
-							    </a>
-							    <a class="carousel-item pictureContainer" height="auto" width="100%">
-							    	<img src="images/portfolio/6.jpg">
-							    </a>
-							    <a class="carousel-item pictureContainer" height="auto" width="100%">
-							    	<img src="images/portfolio/7.jpg">
-							    </a>
-							    <a class="carousel-item pictureContainer" height="auto" width="100%">
-							    	<img src="images/portfolio/8.jpg">
-							    </a>
-							    <a class="carousel-item pictureContainer" height="auto" width="100%">
-							    	<img src="images/portfolio/9.jpg">
-							    </a>
-							    <a class="carousel-item pictureContainer" height="auto" width="100%">
-							    	<img src="images/portfolio/10.jpg">
-							    </a>
-							    <a class="carousel-item pictureContainer" height="auto" width="100%">
-							    	<img src="images/portfolio/11.jpg">
-							    </a>
-							    <a class="carousel-item pictureContainer" height="auto" width="100%">
-							    	<img src="images/portfolio/12.jpg">
-							    </a>
-							    <a class="carousel-item pictureContainer" height="auto" width="100%">
-							    	<img src="images/portfolio/13.jpg">
-							    </a>
-							    <a class="carousel-item pictureContainer" height="auto" width="100%">
-							    	<img src="images/portfolio/14.jpg">
-							    </a>
-							    <a class="carousel-item pictureContainer" height="auto" width="100%">
-							    	<img src="images/portfolio/15.jpg">
-							    </a>
-							    <a class="carousel-item pictureContainer" height="auto" width="100%">
-							    	<img src="images/portfolio/16.jpg">
-							    </a>
-							    <a class="carousel-item pictureContainer" height="auto" width="100%">
-							    	<img src="images/portfolio/17.jpg">
-							    </a>
+			    			<div class="content">
+			    				<!-- Swiper -->
+								<div class="swiper-container swiper-container-all">
+								    <div class="swiper-wrapper">
+								    	<div class="swiper-slide">
+								      		<a class="pictureContainer">
+												<img src="images/portfolio/1-1.jpg" alt="image01" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">Просмотреть</a>
+								    	</div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/2-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">Просмотреть</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/3-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">Просмотреть</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/4-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">Просмотреть</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/5-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">Просмотреть</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/6-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">Просмотреть</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/7-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">Просмотреть</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/8-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">Просмотреть</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/9-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">Просмотреть</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/10-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">Просмотреть</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/11-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">Просмотреть</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/12-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">Просмотреть</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/13-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">Просмотреть</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/14-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">Просмотреть</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/15-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">Просмотреть</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/16-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">Просмотреть</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/17-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">Просмотреть</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/18-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">Просмотреть</a>
+									    </div>
+								    </div>
+
+								    <div class="swiper-button-next swiper-button-next-all"></div>
+    								<div class="swiper-button-prev swiper-button-prev-all"></div>
+							  	</div>
 							</div>
-						</div>	
+						</div>
 					</div>
 				</div>
 			    <div id="site" class="col s12">
-					<br>
 			    	<div class="row">
-			    		<div class="col s4 offset-s1 pictureContainer">
-			    			<img src="images/portfolio/5.jpg" height="auto" width="100%">
-			    		</div>
-			    		<div class="col s4 offset-s2 pictureContainer">
-			    			<img src="images/portfolio/6.jpg" height="auto" width="100%">
-			    		</div>
-			    	</div>
-			    	<br><br><br>
-			    	<div class="row">
-			    		<div class="col s4 offset-s1 pictureContainer">
-			    			<img src="images/portfolio/7.jpg" height="auto" width="100%" >
-			    		</div>
-			    		<div class="col s4 offset-s2 pictureContainer">
-			    			<img src="images/portfolio/8.jpg" height="auto" width="100%">
-			    		</div>
-			    	</div>
+			    		<br>
+			    		<div class="col s12">
+			    			<div class="content">
+			    				<!-- Swiper -->
+								<div class="swiper-container swiper-container-site">
+								    <div class="swiper-wrapper">
+								    	<div class="swiper-slide">
+								      		<a class="pictureContainer">
+												<img src="images/portfolio/1-1.jpg" alt="image01" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">Просмотреть</a>
+								    	</div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/2-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">Просмотреть</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/3-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">Просмотреть</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/4-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">Просмотреть</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/5-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">Просмотреть</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/6-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">Просмотреть</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/7-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">Просмотреть</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/8-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">Просмотреть</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/9-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">Просмотреть</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/10-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">Просмотреть</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/11-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">Просмотреть</a>
+									    </div>
+								    </div>
+
+								    <div class="swiper-button-next swiper-button-next-site"></div>
+    								<div class="swiper-button-prev swiper-button-prev-site"></div>
+							  	</div>
+							</div>
+						</div>
+					</div>
 			    </div>
 			    <div id="app" class="col s12">
 			    	<br>
@@ -694,7 +865,7 @@
 			</div>
 			<div class="row">
 				<div class="col s12 btn-header-block-33">
-					<a class="btn">Заказать услугу</a>
+					<a class="btn" onclick="$('.tap-target').tapTarget('open')">Заказать услугу</a>
 				</div>
 			</div>
 			<!-- End block ten clicks -->
@@ -760,7 +931,7 @@
 					</div>
 					<div class="row">
 						<div class="col s12 btn-header-block-33">
-							<a class="btn">Заказать услугу</a>
+							<a class="btn" onclick="$('.tap-target').tapTarget('open')">Заказать услугу</a>
 						</div>
 					</div>
 				</div>
@@ -775,11 +946,11 @@
 							<img src="images/advancement/why-we1.png" height="auto" width="40%" />
 							<p>Передовые<br>технологии</p>
 						</div>
-						<div class="col s3">
+						<div class="col s3 offset-s1">
 							<img src="images/advancement/why-we2.png" height="auto" width="40%" />
 							<p>Наши специалисты охватывают<br>широкий спектр интернет услуг</p>
 						</div>
-						<div class="col s3">
+						<div class="col s3 offset-s1">
 							<img src="images/advancement/why-we3.png" height="auto" width="40%" />
 							<p>Упор на<br>реальный результат</p>
 						</div>
@@ -792,108 +963,648 @@
 				<div class="col s6 offset-s6 title-our-services">
 					<span>Кейсы</span>
 				</div>
+			</div>
+			<div class="row briefcases-block">
 				<div class="col s12 briefcases">
-					<div class="row">
-						<a class="display-alert1">
+					<div class="row display-inline">
+						<a class="display-alert1 main-hover">
 							<div class="col s6 main">
 								<div class="left">
 									<div class="left-one">
-		                				<img src="images/briefcases/line.png" height="100%" width="auto">
+		                				<img src="images/briefcases/line.png">
 		            				</div>
 									<div class="left-two">
-		                				<img src="images/briefcases/bus3.png" height="100%" width="auto">
+		                				<img src="images/briefcases/bus3.png">
 		            				</div>
 		            				<div class="left-text">
-		            					Блок Текста
+		            					<p class="left-text-top">
+		            						A Picturesque Platform for a Global Giant
+		            					</p>
+		            					<p class="left-text-main">
+											Engel &amp; Völkers has grown into one of the world’s largest and most <br> respected luxury real estate companies.
+										</p>
+										<p class="text-photo-end">
+											Посмотреть проект
+										</p>
 		            				</div>
 		            			</div>
 	            				<div class="right">
-	                				<img src="images/briefcases/perspective.png" height="110%">
+	                				<img src="images/briefcases/perspective.png">
 	            				</div>
 							</div>
 						</a>
-						<a class="display-alert2">
+						<a class="display-alert2 main-hover">
 							<div class="col s6 main">
 								<div class="left">
 									<div class="left-one">
-		                				<img src="images/briefcases/line.png" height="100%" width="auto">
+		                				<img src="images/briefcases/line.png">
 		            				</div>
 									<div class="left-two">
-		                				<img src="images/briefcases/bus3.png" height="100%" width="auto">
+		                				<img src="images/briefcases/bus3.png">
 		            				</div>
 		            				<div class="left-text">
-		            					Блок Текста
+		            					<p class="left-text-top">
+		            						A Picturesque Platform for a Global Giant
+		            					</p>
+		            					<p class="left-text-main">
+											Engel &amp; Völkers has grown into one of the world’s largest and most <br> respected luxury real estate companies.
+										</p>
+										<p class="text-photo-end">
+											Посмотреть проект
+										</p>
 		            				</div>
 		            			</div>
 	            				<div class="right">
-	                				<img src="images/briefcases/perspective.png" height="110%">
+	                				<img src="images/briefcases/perspective.png">
 	            				</div>
 							</div>
 						</a>
 					</div>
 					<div class="row">
-						<div class="col s12">
+						<div class="col s12 alert-block">
 							<div class="alert1">
-							  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
-							  Тут Ваше сообщение
+							  	<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;
+							  	</span> 
+							  	<div>
+									<div class="row brief-tabs">
+								    	<div class="col m3">
+								      		<ul class="tabs-brief-1">
+								        		<li class="tab"><a class="active" href="#img1"><img src="images/briefcases/photo.png" class="img-responsive active-img"></a></li>
+										        <li class="tab"><a href="#img2"><img src="images/briefcases/photo.png" class="img-responsive active-img"></a></li>
+										        <li class="tab"><a href="#img3"><img src="images/briefcases/photo.png" class="img-responsive active-img"></a></li>
+								      		</ul>
+								    	</div>
+								    	<div class="col m9">
+									    <div id="img1" class="col tab-content brief-photo">
+									    	<div>
+										    	<div class="full-photo">
+										    		<img src="images/briefcases/photo-full.png">
+										    	</div>
+										    	<div class="text-photo">
+										    		<strong>
+										    			Moving Fashion E-Commerce Forward 1
+										    		</strong>
+													<p>
+														For over seven decades, Paul Stuart has been a purveyor of some of the finest
+														clothing in the world. Our website design helped them refresh their luxury
+														brand
+														status with an updated online experience, including the “shop within a shop”
+														integration
+														of Phineas Cole, a sub-brand geared towards a younger demographic.
+													</p>
+										    	</div>
+										    </div>
+									    </div>
+									    <div id="img2" class="col tab-content brief-photo">
+									    	<div>
+										    	<div class="full-photo">
+										    		<img src="images/briefcases/photo-full.png">
+										    	</div>
+										    	<div class="text-photo">
+										    		<strong>
+										    			Moving Fashion E-Commerce Forward 2
+										    		</strong>
+													<p>
+														For over seven decades, Paul Stuart has been a purveyor of some of the finest
+														clothing in the world. Our website design helped them refresh their luxury
+														brand
+														status with an updated online experience, including the “shop within a shop”
+														integration
+														of Phineas Cole, a sub-brand geared towards a younger demographic.
+													</p>
+										    	</div>
+										    </div>
+									    </div>
+									    <div id="img3" class="col tab-content brief-photo">
+									    	<div>
+										    	<div class="full-photo">
+										    		<img src="images/briefcases/photo-full.png">
+										    	</div>
+										    	<div class="text-photo">
+										    		<strong>
+										    			Moving Fashion E-Commerce Forward 3
+										    		</strong>
+													<p>
+														For over seven decades, Paul Stuart has been a purveyor of some of the finest
+														clothing in the world. Our website design helped them refresh their luxury
+														brand
+														status with an updated online experience, including the “shop within a shop”
+														integration
+														of Phineas Cole, a sub-brand geared towards a younger demographic.
+													</p>
+										    	</div>
+										    </div>
+									    </div>
+								    	</div>
+								  	</div>
+								</div>
 							</div>
 						</div>
-						<div class="col s12">
+						<div class="col s12 alert-block">
 							<div class="alert2">
-							  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
-							  Тут Ваше сообщение
+							  	<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;
+							  	</span> 
+							  	<div>
+									<div class="row brief-tabs">
+								    	<div class="col m3">
+								      		<ul class="tabs-brief-2">
+								        		<li class="tab"><a class="active" href="#img4"><img src="images/briefcases/photo.png" class="img-responsive active-img"></a></li>
+										        <li class="tab"><a href="#img5"><img src="images/briefcases/photo.png" class="img-responsive active-img"></a></li>
+										        <li class="tab"><a href="#img6"><img src="images/briefcases/photo.png" class="img-responsive active-img"></a></li>
+								      		</ul>
+								    	</div>
+								    	<div class="col m9">
+										    <div id="img4" class="col tab-content brief-photo">
+										    	<div>
+											    	<div class="full-photo">
+											    		<img src="images/briefcases/photo-full.png">
+											    	</div>
+											    	<div class="text-photo">
+											    		<strong>
+											    			Moving Fashion E-Commerce Forward 1
+											    		</strong>
+														<p>
+															For over seven decades, Paul Stuart has been a purveyor of some of the finest
+															clothing in the world. Our website design helped them refresh their luxury
+															brand
+															status with an updated online experience, including the “shop within a shop”
+															integration
+															of Phineas Cole, a sub-brand geared towards a younger demographic.
+														</p>
+											    	</div>
+											    </div>
+										    </div>
+										    <div id="img5" class="col tab-content brief-photo">
+										    	<div>
+											    	<div class="full-photo">
+											    		<img src="images/briefcases/photo-full.png">
+											    	</div>
+											    	<div class="text-photo">
+											    		<strong>
+											    			Moving Fashion E-Commerce Forward 2
+											    		</strong>
+														<p>
+															For over seven decades, Paul Stuart has been a purveyor of some of the finest
+															clothing in the world. Our website design helped them refresh their luxury
+															brand
+															status with an updated online experience, including the “shop within a shop”
+															integration
+															of Phineas Cole, a sub-brand geared towards a younger demographic.
+														</p>
+											    	</div>
+											    </div>
+										    </div>
+										    <div id="img6" class="col tab-content brief-photo">
+										    	<div>
+											    	<div class="full-photo">
+											    		<img src="images/briefcases/photo-full.png">
+											    	</div>
+											    	<div class="text-photo">
+											    		<strong>
+											    			Moving Fashion E-Commerce Forward 3
+											    		</strong>
+														<p>
+															For over seven decades, Paul Stuart has been a purveyor of some of the finest
+															clothing in the world. Our website design helped them refresh their luxury
+															brand
+															status with an updated online experience, including the “shop within a shop”
+															integration
+															of Phineas Cole, a sub-brand geared towards a younger demographic.
+														</p>
+											    	</div>
+											    </div>
+										    </div>
+								    	</div>
+								  	</div>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="row">
-						<a class="display-alert3">
+					<div class="row display-inline display-inline-bottom">
+						<a class="display-alert3 main-hover">
 							<div class="col s6 main">
 								<div class="left">
 									<div class="left-one">
-		                				<img src="images/briefcases/line.png" height="100%" width="auto">
+		                				<img src="images/briefcases/line.png">
 		            				</div>
 									<div class="left-two">
-		                				<img src="images/briefcases/bus3.png" height="100%" width="auto">
+		                				<img src="images/briefcases/bus3.png">
 		            				</div>
 		            				<div class="left-text">
-		            					Блок Текста
+		            					<p class="left-text-top">
+		            						A Picturesque Platform for a Global Giant
+		            					</p>
+		            					<p class="left-text-main">
+											Engel &amp; Völkers has grown into one of the world’s largest and most <br> respected luxury real estate companies.
+										</p>
+										<p class="text-photo-end">
+											Посмотреть проект
+										</p>
 		            				</div>
 		            			</div>
 	            				<div class="right">
-	                				<img src="images/briefcases/perspective.png" height="110%">
+	                				<img src="images/briefcases/perspective.png">
 	            				</div>
 							</div>
 						</a>
-						<a class="display-alert4">
+						<a class="display-alert4 main-hover">
 							<div class="col s6 main">
 								<div class="left">
 									<div class="left-one">
-		                				<img src="images/briefcases/line.png" height="100%" width="auto">
+		                				<img src="images/briefcases/line.png">
 		            				</div>
 									<div class="left-two">
-		                				<img src="images/briefcases/bus3.png" height="100%" width="auto">
+		                				<img src="images/briefcases/bus3.png">
 		            				</div>
 		            				<div class="left-text">
-		            					Блок Текста
+		            					<p class="left-text-top">
+		            						A Picturesque Platform for a Global Giant
+		            					</p>
+		            					<p class="left-text-main">
+											Engel &amp; Völkers has grown into one of the world’s largest and most <br> respected luxury real estate companies.
+										</p>
+										<p class="text-photo-end">
+											Посмотреть проект
+										</p>
 		            				</div>
 		            			</div>
 	            				<div class="right">
-	                				<img src="images/briefcases/perspective.png" height="110%">
+	                				<img src="images/briefcases/perspective.png">
 	            				</div>
 							</div>
-						</a>
+						</a>	
 					</div>
 					<div class="row">
-						<div class="col s12">
+						<div class="col s12 alert-block">
 							<div class="alert3">
-							  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
-							  Тут Ваше сообщение
+							  	<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;
+							  	</span> 
+							  	<div>
+									<div class="row brief-tabs">
+								    	<div class="col m3">
+								      		<ul class="tabs-brief-3">
+								        		<li class="tab"><a class="active" href="#img7"><img src="images/briefcases/photo.png" class="img-responsive active-img"></a></li>
+										        <li class="tab"><a href="#img8"><img src="images/briefcases/photo.png" class="img-responsive active-img"></a></li>
+										        <li class="tab"><a href="#img9"><img src="images/briefcases/photo.png" class="img-responsive active-img"></a></li>
+								      		</ul>
+								    	</div>
+								    	<div class="col m9">
+									    <div id="img7" class="col tab-content brief-photo">
+									    	<div>
+										    	<div class="full-photo">
+										    		<img src="images/briefcases/photo-full.png">
+										    	</div>
+										    	<div class="text-photo">
+										    		<strong>
+										    			Moving Fashion E-Commerce Forward 1
+										    		</strong>
+													<p>
+														For over seven decades, Paul Stuart has been a purveyor of some of the finest
+														clothing in the world. Our website design helped them refresh their luxury
+														brand
+														status with an updated online experience, including the “shop within a shop”
+														integration
+														of Phineas Cole, a sub-brand geared towards a younger demographic.
+													</p>
+										    	</div>
+										    </div>
+									    </div>
+									    <div id="img8" class="col tab-content brief-photo">
+									    	<div>
+										    	<div class="full-photo">
+										    		<img src="images/briefcases/photo-full.png">
+										    	</div>
+										    	<div class="text-photo">
+										    		<strong>
+										    			Moving Fashion E-Commerce Forward 2
+										    		</strong>
+													<p>
+														For over seven decades, Paul Stuart has been a purveyor of some of the finest
+														clothing in the world. Our website design helped them refresh their luxury
+														brand
+														status with an updated online experience, including the “shop within a shop”
+														integration
+														of Phineas Cole, a sub-brand geared towards a younger demographic.
+													</p>
+										    	</div>
+										    </div>
+									    </div>
+									    <div id="img9" class="col tab-content brief-photo">
+									    	<div>
+										    	<div class="full-photo">
+										    		<img src="images/briefcases/photo-full.png">
+										    	</div>
+										    	<div class="text-photo">
+										    		<strong>
+										    			Moving Fashion E-Commerce Forward 3
+										    		</strong>
+													<p>
+														For over seven decades, Paul Stuart has been a purveyor of some of the finest
+														clothing in the world. Our website design helped them refresh their luxury
+														brand
+														status with an updated online experience, including the “shop within a shop”
+														integration
+														of Phineas Cole, a sub-brand geared towards a younger demographic.
+													</p>
+										    	</div>
+										    </div>
+									    </div>
+								    	</div>
+								  	</div>
+								</div>
 							</div>
 						</div>
-						<div class="col s12">
+						<div class="col s12 alert-block">
 							<div class="alert4">
-							  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
-							  Тут Ваше сообщение
+							  	<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;
+							  	</span> 
+							  	<div>
+									<div class="row brief-tabs">
+								    	<div class="col m3">
+								      		<ul class="tabs-brief-4">
+								        		<li class="tab"><a class="active" href="#img10"><img src="images/briefcases/photo.png" class="img-responsive active-img"></a></li>
+										        <li class="tab"><a href="#img11"><img src="images/briefcases/photo.png" class="img-responsive active-img"></a></li>
+										        <li class="tab"><a href="#img12"><img src="images/briefcases/photo.png" class="img-responsive active-img"></a></li>
+								      		</ul>
+								    	</div>
+								    	<div class="col m9">
+										    <div id="img10" class="col tab-content brief-photo">
+										    	<div>
+											    	<div class="full-photo">
+											    		<img src="images/briefcases/photo-full.png">
+											    	</div>
+											    	<div class="text-photo">
+											    		<strong>
+											    			Moving Fashion E-Commerce Forward 1
+											    		</strong>
+														<p>
+															For over seven decades, Paul Stuart has been a purveyor of some of the finest
+															clothing in the world. Our website design helped them refresh their luxury
+															brand
+															status with an updated online experience, including the “shop within a shop”
+															integration
+															of Phineas Cole, a sub-brand geared towards a younger demographic.
+														</p>
+											    	</div>
+											    </div>
+										    </div>
+										    <div id="img11" class="col tab-content brief-photo">
+										    	<div>
+											    	<div class="full-photo">
+											    		<img src="images/briefcases/photo-full.png">
+											    	</div>
+											    	<div class="text-photo">
+											    		<strong>
+											    			Moving Fashion E-Commerce Forward 2
+											    		</strong>
+														<p>
+															For over seven decades, Paul Stuart has been a purveyor of some of the finest
+															clothing in the world. Our website design helped them refresh their luxury
+															brand
+															status with an updated online experience, including the “shop within a shop”
+															integration
+															of Phineas Cole, a sub-brand geared towards a younger demographic.
+														</p>
+											    	</div>
+											    </div>
+										    </div>
+										    <div id="img12" class="col tab-content brief-photo">
+										    	<div>
+											    	<div class="full-photo">
+											    		<img src="images/briefcases/photo-full.png">
+											    	</div>
+											    	<div class="text-photo">
+											    		<strong>
+											    			Moving Fashion E-Commerce Forward 3
+											    		</strong>
+														<p>
+															For over seven decades, Paul Stuart has been a purveyor of some of the finest
+															clothing in the world. Our website design helped them refresh their luxury
+															brand
+															status with an updated online experience, including the “shop within a shop”
+															integration
+															of Phineas Cole, a sub-brand geared towards a younger demographic.
+														</p>
+											    	</div>
+											    </div>
+										    </div>
+								    	</div>
+								  	</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row display-inline display-inline-bottom">
+						<a class="display-alert5 main-hover">
+							<div class="col s6 main">
+								<div class="left">
+									<div class="left-one">
+		                				<img src="images/briefcases/line.png">
+		            				</div>
+									<div class="left-two">
+		                				<img src="images/briefcases/bus3.png">
+		            				</div>
+		            				<div class="left-text">
+		            					<p class="left-text-top">
+		            						A Picturesque Platform for a Global Giant
+		            					</p>
+		            					<p class="left-text-main">
+											Engel &amp; Völkers has grown into one of the world’s largest and most <br> respected luxury real estate companies.
+										</p>
+										<p class="text-photo-end">
+											Посмотреть проект
+										</p>
+		            				</div>
+		            			</div>
+	            				<div class="right">
+	                				<img src="images/briefcases/perspective.png">
+	            				</div>
+							</div>
+						</a>
+						<a class="display-alert6 main-hover">
+							<div class="col s6 main">
+								<div class="left">
+									<div class="left-one">
+		                				<img src="images/briefcases/line.png">
+		            				</div>
+									<div class="left-two">
+		                				<img src="images/briefcases/bus3.png">
+		            				</div>
+		            				<div class="left-text">
+		            					<p class="left-text-top">
+		            						A Picturesque Platform for a Global Giant
+		            					</p>
+		            					<p class="left-text-main">
+											Engel &amp; Völkers has grown into one of the world’s largest and most <br> respected luxury real estate companies.
+										</p>
+										<p class="text-photo-end">
+											Посмотреть проект
+										</p>
+		            				</div>
+		            			</div>
+	            				<div class="right">
+	                				<img src="images/briefcases/perspective.png">
+	            				</div>
+							</div>
+						</a>	
+					</div>
+					<div class="row">
+						<div class="col s12 alert-block">
+							<div class="alert5">
+							  	<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;
+							  	</span> 
+							  	<div>
+									<div class="row brief-tabs">
+								    	<div class="col m3">
+								      		<ul class="tabs-brief-5">
+								        		<li class="tab"><a class="active" href="#img13"><img src="images/briefcases/photo.png" class="img-responsive active-img"></a></li>
+										        <li class="tab"><a href="#img14"><img src="images/briefcases/photo.png" class="img-responsive active-img"></a></li>
+										        <li class="tab"><a href="#img15"><img src="images/briefcases/photo.png" class="img-responsive active-img"></a></li>
+								      		</ul>
+								    	</div>
+								    	<div class="col m9">
+									    <div id="img13" class="col tab-content brief-photo">
+									    	<div>
+										    	<div class="full-photo">
+										    		<img src="images/briefcases/photo-full.png">
+										    	</div>
+										    	<div class="text-photo">
+										    		<strong>
+										    			Moving Fashion E-Commerce Forward 1
+										    		</strong>
+													<p>
+														For over seven decades, Paul Stuart has been a purveyor of some of the finest
+														clothing in the world. Our website design helped them refresh their luxury
+														brand
+														status with an updated online experience, including the “shop within a shop”
+														integration
+														of Phineas Cole, a sub-brand geared towards a younger demographic.
+													</p>
+										    	</div>
+										    </div>
+									    </div>
+									    <div id="img14" class="col tab-content brief-photo">
+									    	<div>
+										    	<div class="full-photo">
+										    		<img src="images/briefcases/photo-full.png">
+										    	</div>
+										    	<div class="text-photo">
+										    		<strong>
+										    			Moving Fashion E-Commerce Forward 2
+										    		</strong>
+													<p>
+														For over seven decades, Paul Stuart has been a purveyor of some of the finest
+														clothing in the world. Our website design helped them refresh their luxury
+														brand
+														status with an updated online experience, including the “shop within a shop”
+														integration
+														of Phineas Cole, a sub-brand geared towards a younger demographic.
+													</p>
+										    	</div>
+										    </div>
+									    </div>
+									    <div id="img15" class="col tab-content brief-photo">
+									    	<div>
+										    	<div class="full-photo">
+										    		<img src="images/briefcases/photo-full.png">
+										    	</div>
+										    	<div class="text-photo">
+										    		<strong>
+										    			Moving Fashion E-Commerce Forward 3
+										    		</strong>
+													<p>
+														For over seven decades, Paul Stuart has been a purveyor of some of the finest
+														clothing in the world. Our website design helped them refresh their luxury
+														brand
+														status with an updated online experience, including the “shop within a shop”
+														integration
+														of Phineas Cole, a sub-brand geared towards a younger demographic.
+													</p>
+										    	</div>
+										    </div>
+									    </div>
+								    	</div>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 alert-block">
+							<div class="alert6">
+							  	<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;
+							  	</span> 
+							  	<div>
+									<div class="row brief-tabs">
+								    	<div class="col m3">
+								      		<ul class="tabs-brief-6">
+								        		<li class="tab"><a class="active" href="#img16"><img src="images/briefcases/photo.png" class="img-responsive active-img"></a></li>
+										        <li class="tab"><a href="#img17"><img src="images/briefcases/photo.png" class="img-responsive active-img"></a></li>
+										        <li class="tab"><a href="#img18"><img src="images/briefcases/photo.png" class="img-responsive active-img"></a></li>
+								      		</ul>
+								    	</div>
+								    	<div class="col m9">
+										    <div id="img16" class="col tab-content brief-photo">
+										    	<div>
+											    	<div class="full-photo">
+											    		<img src="images/briefcases/photo-full.png">
+											    	</div>
+											    	<div class="text-photo">
+											    		<strong>
+											    			Moving Fashion E-Commerce Forward 1
+											    		</strong>
+														<p>
+															For over seven decades, Paul Stuart has been a purveyor of some of the finest
+															clothing in the world. Our website design helped them refresh their luxury
+															brand
+															status with an updated online experience, including the “shop within a shop”
+															integration
+															of Phineas Cole, a sub-brand geared towards a younger demographic.
+														</p>
+											    	</div>
+											    </div>
+										    </div>
+										    <div id="img17" class="col tab-content brief-photo">
+										    	<div>
+											    	<div class="full-photo">
+											    		<img src="images/briefcases/photo-full.png">
+											    	</div>
+											    	<div class="text-photo">
+											    		<strong>
+											    			Moving Fashion E-Commerce Forward 2
+											    		</strong>
+														<p>
+															For over seven decades, Paul Stuart has been a purveyor of some of the finest
+															clothing in the world. Our website design helped them refresh their luxury
+															brand
+															status with an updated online experience, including the “shop within a shop”
+															integration
+															of Phineas Cole, a sub-brand geared towards a younger demographic.
+														</p>
+											    	</div>
+											    </div>
+										    </div>
+										    <div id="img18" class="col tab-content brief-photo">
+										    	<div>
+											    	<div class="full-photo">
+											    		<img src="images/briefcases/photo-full.png">
+											    	</div>
+											    	<div class="text-photo">
+											    		<strong>
+											    			Moving Fashion E-Commerce Forward 3
+											    		</strong>
+														<p>
+															For over seven decades, Paul Stuart has been a purveyor of some of the finest
+															clothing in the world. Our website design helped them refresh their luxury
+															brand
+															status with an updated online experience, including the “shop within a shop”
+															integration
+															of Phineas Cole, a sub-brand geared towards a younger demographic.
+														</p>
+											    	</div>
+											    </div>
+										    </div>
+								    	</div>
+								  	</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -912,10 +1623,10 @@
 		<footer>
           <div>
             <div class="row address">
-                <div class="col s12">
+                <div class="col s12 contact-block">
                 	<div class="contact1">
 			            <div class="contact-map1">
-				           	<img src="images/contacts/map.png" height="135rem" />
+				           	<img src="images/contacts/map.png" height="115vh" width="175vw" />
 			            </div>
 			            <div class="contact-text1">
 			              	<p>
@@ -929,9 +1640,9 @@
 			              	</p>
 			            </div>
 			        </div>
-		            <div class="contact2">  
+			        <div class="contact2">
 		              	<div class="contact-map2">
-		              		<img src="images/contacts/map.png" height="135rem" />
+		              		<img src="images/contacts/map.png" height="115vh" width="175vw" />
 		              	</div>
 			            <div class="contact-text2">
 				           	<p>
@@ -945,9 +1656,9 @@
 				           	</p>
 			            </div>
 			        </div>
-		            <div class="contact3">
+			        <div class="contact3">
 			            <div class="contact-map3">
-		              		<img src="images/contacts/map.png" height="135rem" />
+		              		<img src="images/contacts/map.png" height="115vh" width="175vw" />
 		              	</div>
 		              	<div class="contact-text3">
 		              		<p>
@@ -961,7 +1672,7 @@
 		              		</p>
 		              	</div>
 		            </div>
-            	</div>
+    	       	</div>
             </div>
           </div>
           <div class="footer-copyright">
@@ -969,16 +1680,46 @@
             © 2018 ITGeen
           </div>
         </footer>
+        <!-- Element Showed -->
+        <div class="fixed-action-btn direction-top active">
+  			<a id="menu" class="waves-effect waves-light btn btn-floating btn-floating-color" onclick="$('.tap-target').tapTarget('open')"><i class="material-icons">mail_outline</i></a>
+  		</div>
+		<!-- Tap Target Structure -->
+		<div class="tap-target" data-target="menu">
+		    <div class="tap-target-content">
+		    	<div class="input-field-1">
+			    	<div class="input-field col s12">
+					    <input id="first_name_reviews-1" type="text" class="validate">
+					    <label for="first_name_reviews-1">Имя</label>
+					</div>
+					<div class="input-field col s12">
+					    <input id="phone_reviews-1" type="text" class="validate">
+					    <label for="phone_reviews-1">Телефон</label>
+					</div>
+					<div class="input-field col s12">
+					   	<input id="text_reviews-1" type="text" class="validate">
+					    <label for="text_reviews-1">Что Вас интересует?</label>
+					</div>
+					<div class="col s12 btn-header-block-33">
+					   	<a class="btn">Оставить заявку</a>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>	
-    <script src="js/css3-mediaqueries.min.js"></script>
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="component/timelinejs/dist/js/index.js"></script>
+    <script type="text/javascript" src="js/css3-mediaqueries.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="component/timelinejs/dist/js/index.js"></script>
     <script type="text/javascript" src="component/slick/slick/slick.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/our-services.js"></script>
-    <script src="js/contact.js"></script>
-
+    <script type="text/javascript" src="js/contact.js"></script>
+    <script type="text/javascript" src="js/target.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="component/navigation/js/main.js"></script>
+    <script type="text/javascript" src="component/Grid/js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="component/Grid/js/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="component/swiper/dist/js/swiper.min.js"></script>
+	<script type="text/javascript" src="js/portfolio.js"></script>
+	<script type="text/javascript" src="js/our-services.js"></script>
 </body>
 </html>

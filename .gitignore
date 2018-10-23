@@ -1,0 +1,7 @@
+.env
+.idea
+/node_modules
+/tmp
+/textolite
+/psd
+/bower_components

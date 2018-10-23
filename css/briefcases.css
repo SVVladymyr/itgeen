@@ -1,25 +1,35 @@
+.briefcases-block {
+	padding-top: 4rem;
+	overflow-y: -webkit-paged-y !important;
+}
+
 .briefcases {
-	margin-top: 2rem;
-	/*background-color: #1f2227;*/
+	margin-left: 4rem !important;
+	text-align: center;
 	background-color: white;
 }
 
 .briefcases > .row {
-	padding: 2rem;
+	padding: 0rem;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	margin-left: 1rem;
 }
 
 .main {
 	display: inline-flex;
-	height: 20rem;
+	width: auto !important;
+	height: calc(45vw/1.5);
+	max-width: 45vw;
 	position: relative;
-	transform: translate3d(0%,0,0);
+	transform: translate3d(8%,0,0);
 	transition: transform 1s;
 	transition-timing-function: linear;
-	perspective-origin: 50% 50%;
+	perspective-origin: right center;
 	perspective:1000px;
+}
+
+.main-hover {
+	height: calc(45vw/1.5);
 }
 
 .right {
@@ -39,6 +49,19 @@
 	overflow: hidden;
 }
 
+.left-one img {
+	height: calc(45vw/1.5);
+}
+
+.left-two img {
+	height: calc(45vw/1.5);
+	width: 45vw;
+}
+
+.right img {
+	height: 105%;
+}
+
 .left-one {
 	transition: transform 1s;
 	transform-style: preserve-3d;
@@ -46,6 +69,7 @@
 	animation-name: fold;
 	position: relative;
 	perspective-origin: 0% 100%;
+	transform-origin: 50% 0%;
 }
 
 @keyframes fold {
@@ -59,37 +83,98 @@
 	opacity: 1;
 }
 
-.main:hover .right {
-	transform: translate3d(-50%,0,0) rotateY(-25deg);
-	visibility: visible;
+
+@media handheld, screen and (max-device-width: 1200px) {
+	.main-hover .main .left-text {
+		top: 60%;
+	}
+
+	.text-photo-end {
+		display: none;
+	}
+}
+
+@media handheld, screen and (min-device-width: 1600px) {
+	.main-hover:hover .main .left-one {
+		transform: translate3d(250%,0,0) rotateY(-40deg) scale(1);
+	}
+
+	.right {
+    	left: -14rem;
+	}
+}
+
+@media handheld, screen and (min-device-width: 1200px) {
+	.briefcases {
+		margin-left: 0rem !important;
+	}
+
+	.display-inline {
+		margin-left: 0rem !important;
+	}
+
+	.display-inline-bottom {
+		height: 350px !important;
+	}
+
+	.briefcases > .row {
+		margin-left: 1rem;
+	}
+
+	.main {
+		width: 100% !important;
+		height: 100%;
+    }
+
+	.main-hover:hover {
+		z-index: 999;
+	}
+
+	.main-hover:hover .main {
+		transform: translate3d(1.5%,0,0);
+	}
+
+	.main-hover:hover .main .right {
+		transform: translate3d(-50%,0,0) rotateY(-25deg);
+		visibility: visible;
+	}
+
+	.main-hover:hover .main .left-two {
+		transform: translate3d(5.4%,0,0) rotateY(20deg);
+	}
+
+	.main-hover:hover .main .left-one {
+		transform: translate3d(244%,0,0) rotateY(-30deg) scale(1);
+	}
+
+	.main-hover:hover .main .left-one img {
+		opacity: 0.7;
+	}
+
+	.main-hover:hover .main .left-text {
+		top: 60%;
+	}
+
+	.display-alert1, .display-alert3, .display-alert5 {
+	    margin-left: 3rem;
+	}
+
 }
 
 .left-two {
-	width: 30%;
-	left: -0.2rem;
+	width: 100%;
+	left: -0.4rem;
 	transition: transform 1s;
 	transform-style: preserve-3d;
 	transition-timing-function: linear;
 	position: relative;
-}
-
-.main:hover .left-two {
-	transform: translate3d(15%,0,0) rotateY(20deg);
-}
-
-.main:hover .left-one {
-	transform: translate3d(180%,0,0) rotateY(-20deg) scale(1.025);
-}
-
-.main:hover .left-one img {
-	opacity: 0.7;
+	transform-origin: 0 50%;
 }
 
 /* Pop-up block */
-.alert1, .alert2, .alert3, .alert4 {
+.alert1, .alert2, .alert3, .alert4, .alert5, .alert6 {
 	display: none;
     padding: 20px;
-    background-color: green;
     color: white;
     margin-bottom: 15px;
 }
@@ -100,24 +185,181 @@
     color: white;
     font-weight: bold;
     float: right;
-    font-size: 26px;
+    font-size: 50px;
     line-height: 20px;
     cursor: pointer;
     transition: 0.3s;
+    background-color: #a50d15;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 17px;
 }
 
 .closebtn:hover {
-    color: black;
+    color: #8ec20d;
 }
 
 .left-text {
 	position: relative;
 	top: 100%;
-	left: -20%;
+	left: -75%;
 	color: white;
 	transition: top 0.5s linear;
 }
 
-.main:hover .left-text {
-	top: 60%;
+.left-text-top {
+	position: absolute;
+	width: 20rem;
+	top: -7rem;
+	left: -7rem;
+	font-family: Museo_Cyrl_700;
+}
+
+.left-text-main {
+	position: absolute;
+	top: -1rem;
+	left: -7rem;
+	width: 20rem;
+}
+
+.display-inline {
+	display: inline-flex;
+	margin-left: 1rem !important;
+}
+
+.display-alert2, .display-alert4, .display-alert6 {
+	position: relative;
+    left: -5rem;
+    z-index: 8;
+}
+
+.display-alert1, .display-alert3, .display-alert5 {
+	position: relative;
+    left: -6rem;
+    z-index: 9;
+}
+
+.right {
+	width: 0px;
+    position: relative;
+    left: -10rem;
+    top: -0.6rem;
+}
+
+.alert-block {
+	padding-left: 0px !important;
+	margin-left: 0px !important;
+	padding-bottom: 2rem !important;
+}
+
+/* Tabs */
+.tabs{
+	height: auto;
+	white-space: normal;
+}
+
+.tab{
+	display: block;
+	width: 100%;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.tab-content{
+	height: 200px;
+	width: 100%;
+	background: #fcfcfc;
+	border:1px solid #f0f0f0;
+}
+
+.indicator{
+	display: none;
+}
+
+.brief-tabs {
+	margin-top: 2rem;	
+}
+
+.brief-tabs .tabs .tab {
+	height: auto;
+}
+
+.brief-tabs .tabs {
+	display: -webkit-box;
+}
+
+.full-photo {
+	position: relative;
+	top: -3rem;
+}
+
+.full-photo img {
+	height: 33rem;
+    width: 25rem;
+}
+.brief-photo {
+	border: none;
+}
+
+.brief-photo > div {
+	display: inline-flex !important;
+}
+
+.text-photo {
+	color: black;
+	padding: 3rem;
+	font-family: Museo_Cyrl_700;
+}
+
+.text-photo-end {
+	position: absolute;
+	width: 20rem;
+	top: 5rem;
+	left: -7rem;
+	font-family: Museo_Cyrl_700;
+	border-color: #90c404;
+    color: #90c404;
+}
+
+.text-photo-end:after {
+	width: 18px;
+    height: 18px;
+    font-size: 20px;
+    line-height: 13px;
+    transition: color .3s,border-color .3s;
+    content: '+';
+    border-radius: 100%;
+    display: inline-block;
+    border-width: 2px;
+    border-style: solid;
+    font-weight: 400;
+}
+
+.active .active-img {
+	border: 1px solid #ef5026;
+}
+
+.tabs-brief-1 .tab {
+	border: none;
+}
+
+.tabs-brief-2 .tab {
+	border: none;
+}
+
+.tabs-brief-3 .tab {
+	border: none;
+}
+
+.tabs-brief-4 .tab {
+	border: none;
+}
+
+.tabs-brief-5 .tab {
+	border: none;
+}
+
+.tabs-brief-6 .tab {
+	border: none;
 }

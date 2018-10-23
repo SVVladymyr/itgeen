@@ -1,7 +1,7 @@
 .portfolio .tabs .tab a {
 	color: black !important;
 	font-family: Museo_Cyrl_500;
-	font-size: 0.7em;
+	font-size: 1.2em;
 }
 
 .portfolio .tabs .tab a:hover {
@@ -9,7 +9,7 @@
 }
 
 .portfolio .tabs .tab a:focus.active {
-	background-color: #e5d8d3 !important;
+    background-color: transparent !important;
 }
 
 .portfolio .tabs .indicator {
@@ -17,21 +17,15 @@
 }
 
 .pictureContainer {
-    height: 15rem;
+    height: 14rem;
     width: 100%;
     overflow: hidden;
-    border: 1px solid #9caebc;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-}
-
-.pictureContainer:hover {
-	box-shadow: 0 0 10px #dd6f46;
+    margin: 0px !important;
 }
 
 .pictureContainer img {
     position: relative;
-    top: 0px;
-    transition: top .5s ease-in-out;
+    top: 5px;
 }
 
 .carousel {
@@ -41,4 +35,76 @@
 .carousel .carousel-item {
 	width: 30rem !important;
 	height: 23rem !important;
+}
+
+.btn-portfolio, .btn-portfolio:hover {
+    top: 80%;
+    width: 50%;
+    text-align: center;
+    position: absolute !important;
+    font-size: 1.1vw;
+    opacity: 0.8;
+    border: 0.5px solid #eb6d40 !important;
+    outline: none;
+    text-decoration: none;
+    background-color: #eb6d40;
+    color: white;
+}
+
+.swiper-container {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media handheld, screen and (min-device-width: 1440px) {
+  .swiper-container {
+    height: 43rem;
+  }
+  .swiper-slide {
+    height: 250px !important;
+  }
+  .pictureContainer {
+    height: 22rem !important; 
+  }
+  .btn-portfolio, .btn-portfolio:hover {
+    top: 90%;
+  }
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: 200px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    transition: transform 1s;
+    animation: translate 4s linear;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: -3rem;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0px 7px;
+}
+
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
 }

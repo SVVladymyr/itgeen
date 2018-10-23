@@ -1,0 +1,42 @@
+.tap-target {
+    background-color: #11E6FF !important;
+}
+
+.tap-target-wrapper {
+    width: 700px !important;
+    height: 700px !important;
+}
+
+.input-field-1 {
+	z-index: 999999999999999;
+	/*background-color: white;*/
+	padding: 5px !important;
+    /*box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
+    opacity: 0.9;
+    position: relative;
+    left: 7rem;
+    top: 4rem;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.input-field-1 label {
+    color: black;
+}
+
+#first_name_reviews-1, #phone_reviews-1, #text_reviews-1 {
+    border-color: black;
+}
+
+.btn-floating-color {
+	background-color:#ee1e1f !important;
+    visibility: hidden;
+}
+
+.input-field-1 .btn-header-block-33 {
+	margin-bottom: 1rem;
+}
+
+.tap-target-wave {
+    display: none;
+}
