@@ -74,14 +74,12 @@
 
 
 header {
-	background: radial-gradient(at bottom, #aff7ff, #11E6FF);
-	/*linear-gradient(to top left to top right,
-		#11E6FF 20%,
-		#2DE5FD 15%,
-		#2EE9FF 15%,
-		#2AE8FF 15%,
-		#1CE7FF 15%,
-		#0FE6FF 20%);*/
+  /*
+	background: radial-gradient(at bottom, #aff7ff, #11E6FF);*/
+  background-image: url(../images/header.png);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-size: cover;
 }
 
 .header-block-1 img {
@@ -106,14 +104,10 @@ header {
 	right: -3rem;
 }
 
-.header-block-2 {
-  height: 600px;
-}
-
 .header-block-22 {
 	position: relative;
-    top: -20rem;
-    left: 5rem !important;
+  top: 1vw;
+  left: 5rem !important;
 }
 
 
@@ -146,7 +140,7 @@ header {
 
 .header-block-23 {
 	position: relative;
-  top: -21rem;
+  top: 1vw;
   left: 5rem !important;
   border-bottom-width: 4px; 
 	border-bottom-style: dotted;
@@ -186,11 +180,43 @@ header {
   .header-block-33 {
     top: -26rem;
   }
+
+
+}
+
+@media handheld, screen and (min-device-width: 1200px) {
+  .header-block-2 {
+    position: relative;
+    height: 600px;
+    top: 3vw;
+    left: 2vw;
+  }
+
+  .text-header-block-21 {
+    left: -4vw;
+  }
+
+  canvas {
+    top: -11.5vw;
+  }
+}
+
+@media handheld, screen and (max-device-width: 1200px) {
+  .header-block-2 {
+    position: relative;
+    height: 600px;
+    top: -2vw;
+    left: 2vw;
+  }
+
+  canvas {
+    top: -9vw;
+  }
 }
 
 @media only screen and (min-device-width: 600px) {
   .header-block-33 {
-    top: -31rem;
+    top: -37vw;
   }
 }
 
@@ -214,6 +240,13 @@ header {
 
 .btn-header-block-33 {
 	text-align: center;
+  height: 3.5rem !important;
+  
+}
+
+.btn-header-block-33 .btn {
+  height: 2.7rem;
+  padding-top: 0.2rem;  
 }
 
 .reset-left-padding {
@@ -229,6 +262,7 @@ header {
   background-color: #ff4b11;
   color: white;
   font-size: 1em;
+  margin-top: 0.5rem !important;
 }
 
 .btn-header-block-33 a:hover, .btn-header-block-33 a:active {
@@ -284,19 +318,26 @@ header {
 }
 
 .text-header-block-21 {
-	top: -20rem;
-  left: 6rem;
   position: relative;
   font-family: Museo_Cyrl_700;
   font-weight: bold;
  }
 
+ .text-header-block-21 h1 {
+    font-size: 2.5rem;
+ }
+
+.input-field > label {
+  color: black !important;
+  font-size: 1.1rem;
+}
+
 /* Canvas style */
 
 canvas {
-    position: relative;
-    right: -30px;
-    left:-8rem;
+    position: absolute;
+    height: 25vw;
+    width: 100%;
 }
 
 #img-canvas {

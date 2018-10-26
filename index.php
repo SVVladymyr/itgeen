@@ -25,11 +25,34 @@
     <link rel="stylesheet" href="css/10-click.css">
     <link rel="stylesheet" href="css/contacts.css">
     <link rel="stylesheet" href="css/target.css">
+    <link rel="stylesheet" href="css/application.css">
     <link rel="stylesheet" href="component/navigation/css/style.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 </head>
 <body>
 	<div class="itgeen-container">
 		<header>
+				<div class="row phone">
+					<div class="col s3 offset-s1">
+						<div>	
+							<h6 class="phone-header">
+								<span class="center-align">+7(938)407-30-84</span>
+							</h6>
+						</div>
+					</div>
+					<div class="col s3 offset-s2">	
+						<h6 class="phone-header">
+							<span class="center-align">+7(938)407-30-84</span>
+						</h6>
+					</div>
+					<div class="col s3">	
+						<h6 class="phone-header">
+							<span class="center-align">+7(938)407-30-84</span>
+						</h6>
+					</div>
+				</div>
+				<canvas id="canvas"></canvas>
 				<div class="row">
 					<div class="col s1 m1 l1 xl1 header-block-1">
 						<img src="images/logo.png" width="150%" height="auto" class="logo">
@@ -42,16 +65,15 @@
 					<div class="col s5 m5 l5 xl5 header-block-2">
 						<div class="row">
 							<div class="col s12">
-								<canvas id="canvas"></canvas>
 								<img id="img-canvas" src="images/fon.png" />
-								<span class="text-header-block-21" align="right"><h3><b>Разработка<br><nobr>и продвижение</nobr><br>сайтов</b></h3></span>
+								<span class="text-header-block-21" align="right"><h1><b>Разработка<br><nobr>и продвижение</nobr><br>сайтов</b></h1></span>
 							</div>
 							<div class="col s6 header-block-22">
 								<span class="ul-title-block-22">Почему стоит работать с нами</span>
 								<ul class="ul-header-block-22">
 									<li><span>Выполняем все работы в срок</span></li>
 									<li><span>10 лет на рынке, имеем профессиональную команду</span></li>
-									<li><span>Всегда идем на встречу клиенту</span></li>
+									<li><span>Всегда идем навстречу клиенту</span></li>
 									<li><span>Нацелены на результат, увеличиваем вашу прибыль</span></li>
 								</ul>
 							</div>
@@ -63,39 +85,6 @@
 						</div>
 					</div>
 					<div class="col s6 m6 l6 xl6 header-block-3">
-						<div class="row">
-							<div class="col s5 offset-s6">
-								<!--
-								<div class="flex-display-header">
-									<div>
-										<div class="fixed-action-btn fab-position flex-display-header">
-										  <ul class="ul-header">
-										    <li><a class="btn-floating btn-small red"><i class="material-icons">insert_chart</i></a></li>
-										    <li><a class="btn-floating btn-small yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-										    <li><a class="btn-floating btn-small green"><i class="material-icons">publish</i></a></li>
-										    <li><a class="btn-floating btn-small blue"><i class="material-icons">attach_file</i></a></li>
-										  </ul>
-										  <a class="a-header">
-										    <i class="small material-icons">chevron_left</i>
-										    <i class="small material-icons">dehaze</i>
-										  </a>
-										</div>
-									</div>
-								</div>
-							-->
-								<div>	
-									<h6 class="phone-header">
-										<span class="center-align">+7(938)407-30-84</span>
-									</h6>
-								</div>
-								<div>	
-									<h6 class="phone-header"><span class="center-align">+7(938)407-30-84</span></h6>
-								</div>
-								<div>	
-									<h6 class="phone-header"><span class="center-align">+7(938)407-30-84</span></h6>
-								</div>
-							</div>
-						</div>
 						<div class="row">
 							<div class="col s12 reset-left-padding">
 								<div class="image-header-block-3">
@@ -193,44 +182,56 @@
 			</div>
 			<div class="row our-services">
 				<div class="col s4 top-our-services-left">
-					<img src="images/our-services/icon-0.png" class="responsive-img" vspace="5" hspace="5">
+					<img src="images/our-services/icon-11.png" class="responsive-img text-icon-1" vspace="3" hspace="3">
+					<img src="images/our-services/icon-21.png" class="responsive-img text-icon-2" vspace="3" hspace="3">
+					<img src="images/our-services/icon-31.png" class="responsive-img text-icon-3" vspace="3" hspace="3">
+					<img src="images/our-services/icon-41.png" class="responsive-img text-icon-4" vspace="3" hspace="3">
+					<img src="images/our-services/icon-51.png" class="responsive-img text-icon-5" vspace="3" hspace="3">
+					<img src="images/our-services/icon-61.png" class="responsive-img text-icon-6" vspace="3" hspace="3">
 					<div class="row our-services-left">
 						<div class="col s12 our-services-left-block text-icon-1">
-							<p class="title-our-services-left-block">1. SMM анализ</p>
+							<p class="title-our-services-left-block">1. Соцсети (SMM)</p>
 							<p>Проводим SMM анализ сообщества пПППм пп пыуп павп в апвапва павпв пвапв апва</p>
 							<p>Проводим SMM анализ сообщества пПППм пп пыуп павп в апвапва павпв пвапв апва</p>
 							<p>Проводим SMM анализ сообщества пПППм пп пыуп павп в апвапва павпв пвапв апва</p>
+							<p class="cash-our-services-left-block"><span>Цена: 2011 руб.</span></p>
 						</div>
 						<div class="col s12 our-services-left-block text-icon-2">
 							<p class="title-our-services-left-block">2. SMM анализ</p>
 							<p>Проводим SMM анализ сообщества пПППм пп пыуп павп в апвапва павпв пвапв апва</p>
 							<p>Проводим SMM анализ сообщества пПППм пп пыуп павп в апвапва павпв пвапв апва</p>
 							<p>Проводим SMM анализ сообщества пПППм пп пыуп павп в апвапва павпв пвапв апва</p>
+							<p class="cash-our-services-left-block"><span>Цена: 2012 руб.</span></p>
 						</div>
 						<div class="col s12 our-services-left-block text-icon-3">
 							<p class="title-our-services-left-block">3. SMM анализ</p>
 							<p>Проводим SMM анализ сообщества пПППм пп пыуп павп в апвапва павпв пвапв апва</p>
 							<p>Проводим SMM анализ сообщества пПППм пп пыуп павп в апвапва павпв пвапв апва</p>
 							<p>Проводим SMM анализ сообщества пПППм пп пыуп павп в апвапва павпв пвапв апва</p>
+							<p class="cash-our-services-left-block"><span>Цена: 2013 руб.</span></p>
 						</div>
 						<div class="col s12 our-services-left-block text-icon-4">
 							<p class="title-our-services-left-block">4. SMM анализ</p>
 							<p>Проводим SMM анализ сообщества пПППм пп пыуп павп в апвапва павпв пвапв апва</p>
 							<p>Проводим SMM анализ сообщества пПППм пп пыуп павп в апвапва павпв пвапв апва</p>
 							<p>Проводим SMM анализ сообщества пПППм пп пыуп павп в апвапва павпв пвапв апва</p>
+							<p class="cash-our-services-left-block"><span>Цена: 2014 руб.</span></p>
 						</div>
 						<div class="col s12 our-services-left-block text-icon-5">
 							<p class="title-our-services-left-block">5. SMM анализ</p>
 							<p>Проводим SMM анализ сообщества пПППм пп пыуп павп в апвапва павпв пвапв апва</p>
 							<p>Проводим SMM анализ сообщества пПППм пп пыуп павп в апвапва павпв пвапв апва</p>
 							<p>Проводим SMM анализ сообщества пПППм пп пыуп павп в апвапва павпв пвапв апва</p>
+							<p class="cash-our-services-left-block"><span>Цена: 2015 руб.</span></p>
 						</div>
 						<div class="col s12 our-services-left-block text-icon-6">
 							<p class="title-our-services-left-block">6. SMM анализ</p>
 							<p>Проводим SMM анализ сообщества пПППм пп пыуп павп в апвапва павпв пвапв апва</p>
 							<p>Проводим SMM анализ сообщества пПППм пп пыуп павп в апвапва павпв пвапв апва</p>
 							<p>Проводим SMM анализ сообщества пПППм пп пыуп павп в апвапва павпв пвапв апва</p>
+							<p class="cash-our-services-left-block"><span>Цена: 2016 руб.</span></p>
 						</div>
+						<!--
 						<div class="col s12 our-services-left-block text-icon-7">
 							<p class="title-our-services-left-block">7. SMM анализ</p>
 							<p>Проводим SMM анализ сообщества пПППм пп пыуп павп в апвапва павпв пвапв апва</p>
@@ -249,6 +250,7 @@
 							<p>Проводим SMM анализ сообщества пПППм пп пыуп павп в апвапва павпв пвапв апва</p>
 							<p>Проводим SMM анализ сообщества пПППм пп пыуп павп в апвапва павпв пвапв апва</p>
 						</div>
+					-->
 					</div>
 				</div>
 				<div class="col s8 our-services-right">
@@ -260,20 +262,21 @@
 							<a class="btn-floating icon icon-2" data-value="2"><img src="images/our-services/icon-2.png" class="responsive-img img-icon-2"><p>Приложения</p></a>
 						</div>
 						<div class="col s4">
-							<a class="btn-floating icon icon-3" data-value="3"><img src="images/our-services/icon-3.png" class="responsive-img img-icon-3"><p>Продвижение</p></a>
+							<a class="btn-floating icon icon-3" data-value="3"><img src="images/our-services/icon-3.png" class="responsive-img img-icon-3"><p>SEO</p></a>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col s4">
-							<a class="btn-floating icon icon-4" data-value="4"><img src="images/our-services/icon-4.png" class="responsive-img img-icon-4"><p>Видеореклама</p></a>
+							<a class="btn-floating icon icon-4" data-value="4"><img src="images/our-services/icon-4.png" class="responsive-img img-icon-4"><p>Соцсети (SMM)</p></a>
 						</div>
 						<div class="col s4">
-							<a class="btn-floating icon icon-5" data-value="5"><img src="images/our-services/icon-5.png" class="responsive-img img-icon-5"><p>SMM анализ</p></a>
+							<a class="btn-floating icon icon-5" data-value="5"><img src="images/our-services/icon-5.png" class="responsive-img img-icon-5"><p>Контекст</p></a>
 						</div>
 						<div class="col s4">
-							<a class="btn-floating icon icon-6" data-value="6"><img src="images/our-services/icon-6.png" class="responsive-img img-icon-6"><p>Контекстная <br>реклама</p></a>
+							<a class="btn-floating icon icon-6" data-value="6"><img src="images/our-services/icon-6.png" class="responsive-img img-icon-6"><p>Дизайн</p></a>
 						</div>
 					</div>
+					<!--
 					<div class="row">
 						<div class="col s4">
 							<a class="btn-floating icon icon-7" data-value="7"><img src="images/our-services/icon-7.png" class="responsive-img img-icon-7"><p>Продающие <br>тексты</p></a>
@@ -284,6 +287,7 @@
 						<div class="col s4">
 							<a class="btn-floating icon icon-9" data-value="9"><img src="images/our-services/icon-9.png" class="responsive-img img-icon-9"><p>Консультация</p></a>
 						</div>
+					-->
 					</div>
 				</div>
 			</div>
@@ -395,7 +399,7 @@
 			<!-- End block history about -->
 			<!-- Start block portfolio -->
 			<div class="row">
-				<div class="col s6 offset-s6 title-our-services">
+				<div class="col s5 our-history">
 					<span>Портфолио</span>
 				</div>
 			</div>
@@ -418,116 +422,236 @@
 			    				<!-- Swiper -->
 								<div class="swiper-container swiper-container-all">
 								    <div class="swiper-wrapper">
+									
+									
+									<?
+								$ckeys=file("base/portfolio.csv");
+								$ckeyss=count($ckeys);
+								for ($i=1;$i<$ckeyss;$i++)
+								{
+									$ckeysrez=explode(";",$ckeys[$i]); 
+									$imgrez=$ckeysrez[11];
+									$namrez=$ckeysrez[0];
+									$opisrez=$ckeysrez[1];
+									//echo "проверка=" . $ckeysrez . " img=" . $imgrez . " nam=" . $namrez . "<br/>";
+									$j=$i+1; ?>								
+									
+								
+										<div class="swiper-slide">
+								      		<a class="pictureContainer">
+												<img src="images/portfolio/<?echo($imgrez);?>" alt="image01" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"><?echo($namrez);?></p>
+												<p class="btn-portfolio-textopis"><?echo($opisrez);?></p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+								    	</div>  
+											
+								<? } ?>  
+									
+									
 								    	<div class="swiper-slide">
 								      		<a class="pictureContainer">
 												<img src="images/portfolio/1-1.jpg" alt="image01" width="100%" />
 											</a>
-											<a class="btn btn-portfolio">Просмотреть</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
 								    	</div>
 									    <div class="swiper-slide">
 									    	<a class="pictureContainer">
 												<img src="images/portfolio/2-1.jpg" alt="image02" width="100%" />
 											</a>
-											<a class="btn btn-portfolio">Просмотреть</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from 	Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
 									    </div>
 									    <div class="swiper-slide">
 									    	<a class="pictureContainer">
 												<img src="images/portfolio/3-1.jpg" alt="image02" width="100%" />
 											</a>
-											<a class="btn btn-portfolio">Просмотреть</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
 									    </div>
 									    <div class="swiper-slide">
 									    	<a class="pictureContainer">
 												<img src="images/portfolio/4-1.jpg" alt="image02" width="100%" />
 											</a>
-											<a class="btn btn-portfolio">Просмотреть</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
 									    </div>
 									    <div class="swiper-slide">
 									    	<a class="pictureContainer">
 												<img src="images/portfolio/5-1.jpg" alt="image02" width="100%" />
 											</a>
-											<a class="btn btn-portfolio">Просмотреть</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
 									    </div>
 									    <div class="swiper-slide">
 									    	<a class="pictureContainer">
 												<img src="images/portfolio/6-1.jpg" alt="image02" width="100%" />
 											</a>
-											<a class="btn btn-portfolio">Просмотреть</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
 									    </div>
 									    <div class="swiper-slide">
 									    	<a class="pictureContainer">
 												<img src="images/portfolio/7-1.jpg" alt="image02" width="100%" />
 											</a>
-											<a class="btn btn-portfolio">Просмотреть</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
 									    </div>
 									    <div class="swiper-slide">
 									    	<a class="pictureContainer">
 												<img src="images/portfolio/8-1.jpg" alt="image02" width="100%" />
 											</a>
-											<a class="btn btn-portfolio">Просмотреть</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
 									    </div>
 									    <div class="swiper-slide">
 									    	<a class="pictureContainer">
 												<img src="images/portfolio/9-1.jpg" alt="image02" width="100%" />
 											</a>
-											<a class="btn btn-portfolio">Просмотреть</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
 									    </div>
 									    <div class="swiper-slide">
 									    	<a class="pictureContainer">
 												<img src="images/portfolio/10-1.jpg" alt="image02" width="100%" />
 											</a>
-											<a class="btn btn-portfolio">Просмотреть</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
 									    </div>
 									    <div class="swiper-slide">
 									    	<a class="pictureContainer">
 												<img src="images/portfolio/11-1.jpg" alt="image02" width="100%" />
 											</a>
-											<a class="btn btn-portfolio">Просмотреть</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
 									    </div>
 									    <div class="swiper-slide">
 									    	<a class="pictureContainer">
 												<img src="images/portfolio/12-1.jpg" alt="image02" width="100%" />
 											</a>
-											<a class="btn btn-portfolio">Просмотреть</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
 									    </div>
 									    <div class="swiper-slide">
 									    	<a class="pictureContainer">
 												<img src="images/portfolio/13-1.jpg" alt="image02" width="100%" />
 											</a>
-											<a class="btn btn-portfolio">Просмотреть</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
 									    </div>
 									    <div class="swiper-slide">
 									    	<a class="pictureContainer">
 												<img src="images/portfolio/14-1.jpg" alt="image02" width="100%" />
 											</a>
-											<a class="btn btn-portfolio">Просмотреть</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
 									    </div>
 									    <div class="swiper-slide">
 									    	<a class="pictureContainer">
 												<img src="images/portfolio/15-1.jpg" alt="image02" width="100%" />
 											</a>
-											<a class="btn btn-portfolio">Просмотреть</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
 									    </div>
 									    <div class="swiper-slide">
 									    	<a class="pictureContainer">
 												<img src="images/portfolio/16-1.jpg" alt="image02" width="100%" />
 											</a>
-											<a class="btn btn-portfolio">Просмотреть</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
 									    </div>
 									    <div class="swiper-slide">
 									    	<a class="pictureContainer">
 												<img src="images/portfolio/17-1.jpg" alt="image02" width="100%" />
 											</a>
-											<a class="btn btn-portfolio">Просмотреть</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
 									    </div>
 									    <div class="swiper-slide">
 									    	<a class="pictureContainer">
 												<img src="images/portfolio/18-1.jpg" alt="image02" width="100%" />
 											</a>
-											<a class="btn btn-portfolio">Просмотреть</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
 									    </div>
 								    </div>
-
 								    <div class="swiper-button-next swiper-button-next-all"></div>
     								<div class="swiper-button-prev swiper-button-prev-all"></div>
 							  	</div>
@@ -547,70 +671,201 @@
 								      		<a class="pictureContainer">
 												<img src="images/portfolio/1-1.jpg" alt="image01" width="100%" />
 											</a>
-											<a class="btn btn-portfolio">Просмотреть</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
 								    	</div>
 									    <div class="swiper-slide">
 									    	<a class="pictureContainer">
 												<img src="images/portfolio/2-1.jpg" alt="image02" width="100%" />
 											</a>
-											<a class="btn btn-portfolio">Просмотреть</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from 	Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
 									    </div>
 									    <div class="swiper-slide">
 									    	<a class="pictureContainer">
 												<img src="images/portfolio/3-1.jpg" alt="image02" width="100%" />
 											</a>
-											<a class="btn btn-portfolio">Просмотреть</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
 									    </div>
 									    <div class="swiper-slide">
 									    	<a class="pictureContainer">
 												<img src="images/portfolio/4-1.jpg" alt="image02" width="100%" />
 											</a>
-											<a class="btn btn-portfolio">Просмотреть</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
 									    </div>
 									    <div class="swiper-slide">
 									    	<a class="pictureContainer">
 												<img src="images/portfolio/5-1.jpg" alt="image02" width="100%" />
 											</a>
-											<a class="btn btn-portfolio">Просмотреть</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
 									    </div>
 									    <div class="swiper-slide">
 									    	<a class="pictureContainer">
 												<img src="images/portfolio/6-1.jpg" alt="image02" width="100%" />
 											</a>
-											<a class="btn btn-portfolio">Просмотреть</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
 									    </div>
 									    <div class="swiper-slide">
 									    	<a class="pictureContainer">
 												<img src="images/portfolio/7-1.jpg" alt="image02" width="100%" />
 											</a>
-											<a class="btn btn-portfolio">Просмотреть</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
 									    </div>
 									    <div class="swiper-slide">
 									    	<a class="pictureContainer">
 												<img src="images/portfolio/8-1.jpg" alt="image02" width="100%" />
 											</a>
-											<a class="btn btn-portfolio">Просмотреть</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
 									    </div>
 									    <div class="swiper-slide">
 									    	<a class="pictureContainer">
 												<img src="images/portfolio/9-1.jpg" alt="image02" width="100%" />
 											</a>
-											<a class="btn btn-portfolio">Просмотреть</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
 									    </div>
 									    <div class="swiper-slide">
 									    	<a class="pictureContainer">
 												<img src="images/portfolio/10-1.jpg" alt="image02" width="100%" />
 											</a>
-											<a class="btn btn-portfolio">Просмотреть</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
 									    </div>
 									    <div class="swiper-slide">
 									    	<a class="pictureContainer">
 												<img src="images/portfolio/11-1.jpg" alt="image02" width="100%" />
 											</a>
-											<a class="btn btn-portfolio">Просмотреть</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/12-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/13-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/14-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/15-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/16-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/17-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/18-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
 									    </div>
 								    </div>
-
 								    <div class="swiper-button-next swiper-button-next-site"></div>
     								<div class="swiper-button-prev swiper-button-prev-site"></div>
 							  	</div>
@@ -619,133 +874,863 @@
 					</div>
 			    </div>
 			    <div id="app" class="col s12">
-			    	<br>
 			    	<div class="row">
-			    		<div class="col s4 offset-s1 pictureContainer">
-			    			<img src="images/portfolio/9.jpg" height="auto" width="100%">
-			    		</div>
-			    		<div class="col s4 offset-s2 pictureContainer">
-			    			<img src="images/portfolio/10.jpg" height="auto" width="100%">
-			    		</div>
-			    	</div>
-			    	<br><br><br>
-			    	<div class="row">
-			    		<div class="col s4 offset-s1 pictureContainer">
-			    			<img src="images/portfolio/11.jpg" height="auto" width="100%" >
-			    		</div>
-			    		<div class="col s4 offset-s2 pictureContainer">
-			    			<img src="images/portfolio/12.jpg" height="auto" width="100%">
-			    		</div>
-			    	</div>
+			    		<br>
+			    		<div class="col s12">
+			    			<div class="content">
+			    				<!-- Swiper -->
+								<div class="swiper-container swiper-container-app">
+								    <div class="swiper-wrapper">
+								    	<div class="swiper-slide">
+								      		<a class="pictureContainer">
+												<img src="images/portfolio/1-1.jpg" alt="image01" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+								    	</div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/2-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from 	Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/3-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/4-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/5-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/6-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/7-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/8-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/9-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/10-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/11-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/12-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/13-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/14-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/15-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/16-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/17-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/18-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+								    </div>
+								    <div class="swiper-button-next swiper-button-next-app"></div>
+    								<div class="swiper-button-prev swiper-button-prev-app"></div>
+							  	</div>
+							</div>
+						</div>
+					</div>
 			    </div>
 			    <div id="video" class="col s12">
-			    	<br>
 			    	<div class="row">
-			    		<div class="col s4 offset-s1 pictureContainer">
-			    			<img src="images/portfolio/13.jpg" height="auto" width="100%">
-			    		</div>
-			    		<div class="col s4 offset-s2 pictureContainer">
-			    			<img src="images/portfolio/14.jpg" height="auto" width="100%">
-			    		</div>
-			    	</div>
-			    	<br><br><br>
-			    	<div class="row">
-			    		<div class="col s4 offset-s1 pictureContainer">
-			    			<img src="images/portfolio/15.jpg" height="auto" width="100%" >
-			    		</div>
-			    		<div class="col s4 offset-s2 pictureContainer">
-			    			<img src="images/portfolio/16.jpg" height="auto" width="100%">
-			    		</div>
-			    	</div>
+			    		<br>
+			    		<div class="col s12">
+			    			<div class="content">
+			    				<!-- Swiper -->
+								<div class="swiper-container swiper-container-video">
+								    <div class="swiper-wrapper">
+								    	<div class="swiper-slide">
+								      		<a class="pictureContainer">
+												<img src="images/portfolio/1-1.jpg" alt="image01" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+								    	</div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/2-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from 	Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/3-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/4-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/5-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/6-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/7-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/8-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/9-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/10-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/11-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/12-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/13-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/14-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/15-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/16-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/17-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/18-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+								    </div>
+								    <div class="swiper-button-next swiper-button-next-video"></div>
+    								<div class="swiper-button-prev swiper-button-prev-video"></div>
+							  	</div>
+							</div>
+						</div>
+					</div>
 			    </div>
 			    <div id="design" class="col s12">
-			    	<br>
 			    	<div class="row">
-			    		<div class="col s4 offset-s1 pictureContainer">
-			    			<img src="images/portfolio/1.jpg" height="auto" width="100%">
-			    		</div>
-			    		<div class="col s4 offset-s2 pictureContainer">
-			    			<img src="images/portfolio/2.jpg" height="auto" width="100%">
-			    		</div>
-			    	</div>
-			    	<br><br><br>
-			    	<div class="row">
-			    		<div class="col s4 offset-s1 pictureContainer">
-			    			<img src="images/portfolio/3.jpg" height="auto" width="100%" >
-			    		</div>
-			    		<div class="col s4 offset-s2 pictureContainer">
-			    			<img src="images/portfolio/4.jpg" height="auto" width="100%">
-			    		</div>
-			    	</div>
+			    		<br>
+			    		<div class="col s12">
+			    			<div class="content">
+			    				<!-- Swiper -->
+								<div class="swiper-container swiper-container-design">
+								    <div class="swiper-wrapper">
+								    	<div class="swiper-slide">
+								      		<a class="pictureContainer">
+												<img src="images/portfolio/1-1.jpg" alt="image01" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+								    	</div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/2-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from 	Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/3-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/4-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/5-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/6-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/7-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/8-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/9-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/10-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/11-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/12-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/13-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/14-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/15-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/16-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/17-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/18-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+								    </div>
+								    <div class="swiper-button-next swiper-button-next-design"></div>
+    								<div class="swiper-button-prev swiper-button-prev-design"></div>
+							  	</div>
+							</div>
+						</div>
+					</div>
 			    </div>
 			    <div id="seo" class="col s12">
-			    	<br>
 			    	<div class="row">
-			    		<div class="col s4 offset-s1 pictureContainer">
-			    			<img src="images/portfolio/17.jpg" height="auto" width="100%">
-			    		</div>
-			    		<div class="col s4 offset-s2 pictureContainer">
-			    			<img src="images/portfolio/17.jpg" height="auto" width="100%">
-			    		</div>
-			    	</div>
-			    	<br><br><br>
-			    	<div class="row">
-			    		<div class="col s4 offset-s1 pictureContainer">
-			    			<img src="images/portfolio/17.jpg" height="auto" width="100%" >
-			    		</div>
-			    		<div class="col s4 offset-s2 pictureContainer">
-			    			<img src="images/portfolio/17.jpg" height="auto" width="100%">
-			    		</div>
-			    	</div>
+			    		<br>
+			    		<div class="col s12">
+			    			<div class="content">
+			    				<!-- Swiper -->
+								<div class="swiper-container swiper-container-seo">
+								    <div class="swiper-wrapper">
+								    	<div class="swiper-slide">
+								      		<a class="pictureContainer">
+												<img src="images/portfolio/1-1.jpg" alt="image01" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+								    	</div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/2-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from 	Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/3-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/4-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/5-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/6-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/7-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/8-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/9-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/10-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/11-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/12-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/13-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/14-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/15-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/16-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/17-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+									    <div class="swiper-slide">
+									    	<a class="pictureContainer">
+												<img src="images/portfolio/18-1.jpg" alt="image02" width="100%" />
+											</a>
+											<a class="btn btn-portfolio">
+												<p class="btn-portfolio-text"> Block of images from Portfolio </p>
+												<p class="btn-portfolio-btn">
+													Просмотреть
+												</p>
+											</a>
+									    </div>
+								    </div>
+								    <div class="swiper-button-next swiper-button-next-seo"></div>
+    								<div class="swiper-button-prev swiper-button-prev-seo"></div>
+							  	</div>
+							</div>
+						</div>
+					</div>
 			    </div>
 			</div>
-			<!-- Start block reviews -->
-			<div class="row">
-				<div class="col s5 our-history">
-					<span>Отзывы</span>
-				</div>
-				<div class="col s12 reviews">
-					<div class="slider">
-						<div>
-							<img src="images/reviews/slider-image.png">	
-						</div>
-						<div>
-							<img src="images/reviews/slider-image.png">
-						</div>
-						<div>
-							<img src="images/reviews/slider-image.png">
-						</div>
-						<div>
-							<img src="images/reviews/slider-image.png">
-						</div>
-						<div>
-							<img src="images/reviews/slider-image.png">
-						</div>
-					</div>
-					<div class="row">
-						<div class="col s3 offset-s1 form-reviews">
-							<div>
-								<div class="input-field col s12">
-								    <input id="first_name_reviews" type="text" class="validate">
-								    <label for="first_name_reviews">Имя</label>
-								</div>
-								<div class="input-field col s12">
-								    <input id="phone_reviews" type="text" class="validate">
-								    <label for="phone_reviews">Телефон</label>
-								</div>
-								<div class="input-field col s12">
-								   	<input id="text_reviews" type="text" class="validate">
-								    <label for="text_reviews">Что Вас интересует?</label>
-								</div>
-								<div class="col s12 btn-header-block-33">
-								  	<a class="btn">Заказать услугу</a>
-								</div>
-							</div>			
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- End block reviews -->
+			<!-- End block portfolio -->
 			<!-- Start block ten clicks -->
 			<div class="row">
 				<div class="col s6 offset-s6 title-our-services">
@@ -936,6 +1921,7 @@
 					</div>
 				</div>
 			</div>
+			<!--
 			<div class="row advancement-bottom">
 				<div class="col s12 advancement-bottom-header">
 					<p>Почему МЫ</p>
@@ -957,6 +1943,7 @@
 					</div>
 				</div>
 			</div>	
+		-->
 			<!-- End block advancement -->
 			<!-- Start block briefcases -->
 			<div class="row">
@@ -1611,6 +2598,86 @@
 				</div>
 			</div>
 			<!-- End block briefcases -->
+			<!-- Start block reviews -->
+			<div class="row">
+				<div class="col s5 our-history">
+					<span>Отзывы</span>
+				</div>
+				<div class="col s12 reviews">
+					<div class="slider">
+						<div>
+							<img src="images/reviews/slider-image.png">	
+						</div>
+						<div>
+							<img src="images/reviews/slider-image.png">
+						</div>
+						<div>
+							<img src="images/reviews/slider-image.png">
+						</div>
+						<div>
+							<img src="images/reviews/slider-image.png">
+						</div>
+						<div>
+							<img src="images/reviews/slider-image.png">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col s3 offset-s1 form-reviews">
+							<div>
+								<div class="input-field col s12">
+								    <input id="first_name_reviews" type="text" class="validate">
+								    <label for="first_name_reviews">Имя</label>
+								</div>
+								<div class="input-field col s12">
+								    <input id="phone_reviews" type="text" class="validate">
+								    <label for="phone_reviews">Телефон</label>
+								</div>
+								<div class="input-field col s12">
+								   	<input id="text_reviews" type="text" class="validate">
+								    <label for="text_reviews">Что Вас интересует?</label>
+								</div>
+								<div class="col s12 btn-header-block-33">
+								  	<a class="btn">Заказать услугу</a>
+								</div>
+							</div>			
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End block reviews -->
+			<!-- Start block submit your application -->
+			<div class="row">
+				<div class="col s6 offset-s6 title-our-services">
+					<span>Форма заказа</span>
+					<p class="text-header-right">Свяжитесь с нами</p>	
+				</div>
+			</div>
+			<div class="application-form">
+			    <form class="submission-form">
+			    	<div class="input-field-1">
+				    	<div class="input-field col s12">
+						    <input id="first_name_reviews-1" type="text" class="validate">
+						    <label for="first_name_reviews-1">Имя</label>
+						</div>
+						<div class="input-field col s12">
+						    <input id="phone_reviews-1" type="email" class="validate"
+	           					pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$"
+           						required
+           					/>
+						    <label for="phone_reviews-1">Email</label>
+						    <span class="helper-text" data-error="Ошибка ввода" data-success=""></span>
+						</div>
+						<div class="input-field col s12">
+						   	<textarea id="textarea1" class="materialize-textarea"></textarea>
+						   	<label for="textarea1">Что Вас интересует ?</label>
+						</div>
+						<div class="col s12 btn-header-block-33">
+						   	<a class="btn">Отправить заявку</a>
+						</div>
+					</div>
+				</form>
+			</div>
+			<!-- End block submit your application -->
 			<!-- Start block contacts -->
 			<div class="row contact">
 				<div class="col s5 our-history">
@@ -1623,28 +2690,38 @@
 		<footer>
           <div>
             <div class="row address">
-                <div class="col s12 contact-block">
-                	<div class="contact1">
-			            <div class="contact-map1">
-				           	<img src="images/contacts/map.png" height="115vh" width="175vw" />
-			            </div>
-			            <div class="contact-text1">
-			              	<p>
-			              		350065, г.Краснодар ул.Ставропольская 312, 3 этаж, оф.4
+            	<div class="col s4">
+		              	<div>
+		              		<p>
+			              		350065, г.Краснодар ул.Ставропольская 312,<br> 3 этаж, оф.4
 			              		<br>
 			              		Тел.: +7(938)407-30-84
 			              		<br>
 			              		E-mail: contacts@itgeen.com
 			              		<br>
 			              		Skype: itgeenltd
+			              		<br>
+			              		<a class="contact-3">Посмотреть на карте</a>
+		              		</p>
+		              	</div>
+	            </div>
+               	<div class="col s4">
+			            <div>
+			              	<p>
+			              		83000, г.Донецк ул.50-летия СССР 136
+			              		<br>
+			              		Тел.: +7(938)407-30-84
+			              		<br>
+			              		E-mail: contacts@itgeen.com
+			              		<br>
+			              		Skype: itgeenltd
+			              		<br>
+			              		<a class="contact-1">Посмотреть на карте</a>
 			              	</p>
 			            </div>
-			        </div>
-			        <div class="contact2">
-		              	<div class="contact-map2">
-		              		<img src="images/contacts/map.png" height="115vh" width="175vw" />
-		              	</div>
-			            <div class="contact-text2">
+		        </div>
+		        <div class="col s4">
+			            <div>
 				           	<p>
 				           		Osaca, Joto Ku, Hanaten Nishi, 1-2
 				           		<br>
@@ -1653,31 +2730,35 @@
 				           		E-mail: itgeenltd@gmail.com
 				           		<br>
 				           		Skype: itgeenltd
+				           		<br>
+			              		<a class="contact-2">Посмотреть на карте</a>
 				           	</p>
 			            </div>
-			        </div>
-			        <div class="contact3">
-			            <div class="contact-map3">
-		              		<img src="images/contacts/map.png" height="115vh" width="175vw" />
-		              	</div>
-		              	<div class="contact-text3">
-		              		<p>
-			              		350065, г.Краснодар ул.Ставропольская 312, 3 этаж, оф.4
-			              		<br>
-			              		Тел.: +7(938)407-30-84
-			              		<br>
-			              		E-mail: contacts@itgeen.com
-			              		<br>
-			              		Skype: itgeenltd
-		              		</p>
-		              	</div>
-		            </div>
-    	       	</div>
+		        </div>
+   	       		<div class="col s12" id="map" style="width: 100%; height: 250px"></div>
             </div>
           </div>
           <div class="footer-copyright">
-            <div class="container">
-            © 2018 ITGeen
+            <div class="row">
+            	<div class="col s8 footer-copyright-left">
+            		<div class="row">
+            			<div class="col s6 right-align">
+            				<a href="#"><img src="images/footer/vk.png"></a>
+            			</div>
+            			<div class="col s6 center-align">
+            				<a href="#"><img src="images/footer/facebook.png"></a>
+            			</div>
+            		</div>
+            	</div>
+            	<div class="col s4 footer-copyright-right center-align">
+            		<a href="#"><img src="images/footer/vk.png"></a>
+            	</div>
+            </div>
+            <div class="row">
+            	<div class="col s12 center-align">
+            		<span>- Компания ITДжинн -</span>
+            	</div>
+            </div>	
           </div>
         </footer>
         <!-- Element Showed -->

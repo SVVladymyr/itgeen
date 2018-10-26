@@ -24,19 +24,22 @@
           loading = true;
       var parent = canvas.parentNode;    
       canvas.height = parent.offsetHeight;
-      /* canvas.width = parent.clientWidth; */
+      //canvas.width = parent.clientWidth; 
       canvas.width = window.innerWidth - parent.offsetLeft - 100;
 
       var parts = [],
           minSpawnTime = 100,
           lastTime = new Date().getTime(),
           maxLifeTime = Math.min(5000, (canvas.height / (1.5 * 60) * 1000));
-          //emitterX = canvas.width / 2,
-          var emitterX = canvas.width/1.55;
+          var emitterX = canvas.width / 1.91;
+          //var emitterX = canvas.width/1.55;
           if(canvas.width > 1000)          
             var emitterY = canvas.height-canvas.height/5;
           else
             var emitterY = canvas.height-canvas.height/3.8;
+
+          var emitterY = canvas.height;
+
           smokeImage = new Image();
 
       function spawn() {

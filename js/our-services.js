@@ -21,13 +21,15 @@
 		  		swiper.destroy();
 		  		delete window["swiper"];
 		    	swiper = new Swiper(newclass, {
-	      			slidesPerView: 4,
+	      			slidesPerView: 3,
 				    slidesPerColumn: 2,
+				    slidesPerGroup: 3,
 				    spaceBetween: 0,
+				    /*
 				    autoplay: {
 	       				delay: 3500,
 	        			disableOnInteraction: false,
-	      			},
+	      			},*/
 	      			navigation: {
 				    	nextEl: '.swiper-button-next' + $(".active").attr('id'),
 				        prevEl: '.swiper-button-prev' + $(".active").attr('id'),
@@ -55,9 +57,9 @@
 	    	$(this).stop();
 			$(this).animate({scrollTop:0}, 1000);
 		});
-	    $('.btn-portfolio').click(function() {
-	    	$(this).hide();
-	    	$(this).siblings('.pictureContainer').animate({scrollTop: $('img', $(this).siblings('.pictureContainer')).height()}, 5000);
+	    $('.btn-portfolio-btn').click(function() {
+	    	$(this).parent().hide();
+	    	$(this).parent().siblings('.pictureContainer').animate({scrollTop: $('img', $(this).parent().siblings('.pictureContainer')).height()}, 5000);
 	    });
 	    /*
 		$('.pictureContainer').mouseenter(function() {

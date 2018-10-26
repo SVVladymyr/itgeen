@@ -1,5 +1,5 @@
 .reviews {
-	background: #f6d654 url(../images/reviews/human.png) no-repeat;
+	background: #f6d654 url(../images/reviews/human.jpg) no-repeat;
 	background-position: center;
 	background-size: cover;
 }
@@ -30,7 +30,7 @@
 	background-color: white;
 	padding: 5px !important;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
-	opacity: 0.9;
+	opacity: 0.97;
 }
 
 .form-reviews .input-field {

@@ -1,0 +1,14 @@
+.footer-copyright-left {
+	background-color: #98e8fd;
+	height: 2rem;
+
+}
+
+.footer-copyright-right {
+	background-color: #ef5026;
+	height: 2rem;
+}
+
+.footer-copyright > .row {
+	margin-bottom: 0px !important;
+}

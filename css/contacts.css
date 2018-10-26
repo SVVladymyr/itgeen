@@ -79,6 +79,10 @@
 	visibility: visible;	
 }
 
+#map {
+	margin-top: 1rem;
+}
+
 @-moz-document url-prefix() {
 	span {
 		color: red;
